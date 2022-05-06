@@ -1,0 +1,343 @@
+
+/* template-color */
+
+.scroll-top{
+    background: red;
+  }
+  
+  .preloader-close{
+      background: red;
+  }
+  
+  .mobile-menu .menu-backdrop{
+    background: red;
+  }
+  
+  .scroll-top:hover{
+    background: red;
+  }
+  
+  .mobile-menu .contact-info ul li a:hover{
+    color: red;
+  }
+  
+  .header-top .social-links li a:hover{
+    color: red;
+  }
+  
+  .main-menu .navigation > li > ul > li > a:hover,
+  .main-menu .navigation > li > .megamenu li > a:hover{
+    color: red;
+  }
+  
+  .main-menu .navigation > li > ul > li > ul > li > a:hover{
+    color: red;
+  }
+  
+  .main-header .support-box i{
+    background: red;
+  }
+  
+  .main-header .support-box h4 a:hover{
+    color: red;
+  }
+  
+  .theme-btn-one{
+      background: red;
+  }
+  
+  .banner-section .pattern-layer:before{
+      background: red;
+  }
+  
+  .banner-section .pattern-layer:after{
+      background: red;
+  }
+  
+  .image_block_1 .image-box .image-content{
+      background: red;
+  }
+  
+  .sec-title p:before{
+      background: red;
+  }
+  
+  .content_block_1 .content-box .support-box h4 a:hover{
+      color: red;
+  }
+  
+  .content_block_1 .content-box .support-box i{
+      background: red;
+  }
+  
+  .content_block_1 .content-box .inner-box .single-item i{
+      color: red;
+  }
+  
+  .content_block_1 .content-box .list-item li:before{
+      color: red;
+  }
+  
+  .service-block-one .inner-box .overlay-content .link a{
+      background: red;
+  }
+  
+  .service-block-one .inner-box:before{
+      background: red;
+  }
+  
+  .progress-box .bar-inner{
+      background: red;
+  }
+  
+  .content_block_2 .content-box .inner-box .single-item i{
+      background: red;
+  }
+  
+  .bg-color-3{
+      background-color: red;
+  }
+  
+  .gallery-block-one .inner-box .image-box:before{
+      background: red;
+  }
+  
+  .content_block_3 .content-box .lower-box{
+      background: red;
+  }
+  
+  .content_block_4 .counter-block .counter-block-one .icon-box{
+      background: red;
+  }
+  
+  .video-section .inner-box a{
+      background: red;
+  }
+  
+  .testimonial-block-one .inner-box:hover .author-thumb{
+      background: red;
+  }
+  
+  .testimonial-block-one .inner-box .author-info .designation{
+      color: red;
+  }
+  
+  .testimonial-block-one .inner-box:before{
+      background: red;
+  }
+  
+  .news-block-one .image-box .image{
+      background: red;
+  }
+  
+  .news-block-one .image-box .post-date{
+      background: red;
+  }
+  
+  .news-block-one .content-box .post-info li a:hover{
+    color: red;
+  }
+  
+  .news-block-one .content-box .post-info li i{
+      color: red;
+  }
+  
+  .news-block-one .content-box h2 a:hover{
+    color: red;
+  }
+  
+  .news-block-one .content-box .link a:hover{
+      background: red;
+  }
+  
+  .newsletter-section .text .icon-box{
+      color: red;
+  }
+  
+  .newsletter-section .newsletter-form .form-group input:focus{
+    border-color: red !important;
+  }
+  
+  .newsletter-section .newsletter-form .form-group button{
+      color: red;
+  }
+  
+  .footer-top .about-widget .support-box i{
+      background: red;
+  }
+  
+  .footer-top .about-widget .support-box h4 a:hover{
+      color: red;
+  }
+  
+  .footer-top .links-widget .links-list li a:hover{
+    color: red;
+  }
+  
+  .footer-top .links-widget .links-list li a:hover:before{
+      color: red;
+  }
+  
+  .footer-bottom .footer-social li a:hover{
+    background: red;
+  }
+  
+  .main-header.style-two .header-lower .main-menu .navigation > li.current > a, 
+  .main-header.style-two .header-lower .main-menu .navigation > li:hover > a {
+    color: red;
+  }
+  
+  .main-header.style-two .header-lower .support-box h4 a:hover{
+    color: red;
+  }
+  
+  .history-section .upper-content .content-box .counter-block .icon-box{
+      color: red;
+  }
+  
+  .history-section .upper-content .content-box .text .list li:before{
+      background: red;
+  }
+  
+  .image_block_2 .image-box .image-content .support-box i{
+      background: red;
+  }
+  
+  .image_block_2 .image-box .image-content .support-box h4 a:hover{
+    color: red;
+  }
+  
+  .content_block_5 .content-box h3{
+      color: red;
+  }
+  
+  .content_block_5 .content-box .inner .list-item li:before{
+      color: red;
+  }
+  
+  .feature-block-one .inner-box:before{
+      background: red;
+  }
+  
+  .team-block-one .inner-box .image-box:before{
+      background: red;
+  }
+  
+  .team-block-one .inner-box .lower-content h4 a:hover{
+    color: red;
+  }
+  
+  .team-block-one .inner-box .lower-content .social-links li a:hover{
+    color: red;
+  }
+  
+  .team-block-one .inner-box:before{
+      background: red;
+  }
+  
+  .google-map-section .map-inner .map-content{
+      background: red;
+  }
+  
+  .page-title .pattern-layer:before{
+      background: red;
+  }
+  
+  .page-title .pattern-layer:after{
+      background: red;
+  }
+  
+  .content_block_6 .info-inner .info-list li i{
+      background: red;
+  }
+  
+  .content_block_6 .info-inner .info-list li p a:hover{
+    color: red;
+  }
+  
+  .contact-section .form-inner .form-group input:focus,
+  .contact-section .form-inner .form-group textarea:focus{
+    border-color: red !important;
+  }
+  
+  .error-section .inner-box p a{
+      color: red;
+  }
+  
+  .default-sidebar .widget-title h4:before{
+      background: red;
+  }
+  
+  .service-sidebar .categori-widget .categori-list li a:before{
+      background: red;
+  }
+  
+  .service-sidebar .advise-widget .inner-box:before{
+      background: red;
+  }
+  
+  .service-details-content .inner-box h4{
+      color: red;
+  }
+  
+  .service-details-content .inner-box .two-column .list li:before{
+      color: red;
+  }
+  
+  .pagination li a:hover,
+  .pagination li a.active{
+      background: red;
+  }
+  
+  .sidebar .sidebr-search{
+      background: red;
+  }
+  
+  .sidebar .sidebar-post .post-inner .post .post-thumb{
+      background: red;
+  }
+  
+  .sidebar .sidebar-post .post-inner .post .comment i{
+      color: red;
+  }
+  
+  .sidebar .sidebar-post .post-inner .post h6 a:hover{
+      color: red;
+  }
+  
+  .sidebar .categories-widget .categories-list li a span{
+      color: red;
+  }
+  
+  .sidebar .categories-widget .categories-list li a:hover{
+      background: red;
+  }
+  
+  .sidebar .tags-widget .tags-list li a:hover{
+      background: red;
+  }
+  
+  .blog-details-content .post-share-option .tags li a:hover{
+      background: red;
+  }
+  
+  .blog-details-content .post-share-option .social-links li a:hover{
+    color: red;
+  }
+  
+  .blog-details-content .comment-box .comment .comment-info h4 span{
+      color: red;
+  }
+  
+  .blog-details-content .comment-box .comment .reply-btn{
+      background: red;
+  }
+  
+  .blog-details-content .comments-form-area .comment-form .form-group input:focus,
+  .blog-details-content .comments-form-area .comment-form .form-group textarea:focus{
+      border-color: red !important;
+  }
+  .text-color{
+      color: black;
+      font-weight: 600;
+  }
