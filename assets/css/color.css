@@ -58,7 +58,7 @@
       background: red;
   }
   
-  .sec-title p:before{
+  .sec-title h2:after{
       background: red;
   }
   

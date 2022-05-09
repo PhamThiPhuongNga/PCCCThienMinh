@@ -464,32 +464,33 @@ img {
   text-align: center !important;
 }
 
-.sec-title p{
+.sec-title h2{
   position: relative;
   display: inline-block;
-  font-size: 18px;
   line-height: 26px;
   font-weight: 600;
-  color: #716868;
-  padding-bottom: 4px;
+  padding-bottom: 5px;
+  text-transform:uppercase;
 }
 
-.sec-title p:before{
+.sec-title h2:after{
   position: absolute;
+  bottom: 0;
   content: '';
-  width: 100%;
-  height: 2px;
-  left: 0px;
-  bottom: 0px;
+  left:0;
+  right:0;
+  width: 130px;
+  height: 7px;
+  margin: auto;
 }
 
 .sec-title h2{
   position: relative;
   display: block;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 60px;
   font-weight: 900;
-  margin: 0px;
+  margin: 0;
 }
 .text-about{
   font-weight: 600;
@@ -1666,7 +1667,7 @@ div#mCSB_1_container{
 
 .about-section{
   position: relative;
-  padding: 10px 0px 120px 0px;
+  padding: 10px 0px 60px 0px;
 }
 
 .image_block_1 .image-box{
@@ -1869,7 +1870,7 @@ div#mCSB_1_container{
 
 .service-section{
   position: relative;
-  padding: 115px 0px 120px 0px;
+  padding: 60px 0px 60px 0px;
 }
 
 .service-section .bg-layer{
@@ -2491,7 +2492,7 @@ div#mCSB_1_container{
 
 .testimonial-section{
   position: relative;
-  padding-top: 110px;
+  padding-top: 60px;
 }
 
 .testimonial-section .pattern-layer{
@@ -2507,7 +2508,7 @@ div#mCSB_1_container{
 }
 
 .testimonial-section .sec-title{
-  margin-bottom: 95px;
+  margin-bottom: 60px;
 }
 
 .testimonial-section .owl-stage-outer{
@@ -2605,7 +2606,7 @@ div#mCSB_1_container{
 
 .clients-section{
   position: relative;
-  padding: 120px 0px;
+  padding: 100px 0px;
 }
 
 .clients-section .clients-logo-box{
