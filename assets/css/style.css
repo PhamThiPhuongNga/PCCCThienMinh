@@ -471,6 +471,7 @@ img {
   font-weight: 600;
   padding-bottom: 5px;
   text-transform:uppercase;
+  color: var(--text-color);
 }
 
 .sec-title h2:after{
@@ -1870,7 +1871,7 @@ div#mCSB_1_container{
 
 .service-section{
   position: relative;
-  padding: 60px 0px 60px 0px;
+  padding: 60px 0px 0px 0px;
 }
 
 .service-section .bg-layer{
@@ -3903,7 +3904,7 @@ div#mCSB_1_container{
 }
 
 .team-page-section{
-  padding-bottom: 90px;
+  padding-bottom: 60px;
 }
 
 .team-page-section .team-block-one .inner-box{
@@ -3942,15 +3943,15 @@ div#mCSB_1_container{
 
 .content_block_6 .info-inner p{
   font-weight: 500;
-  margin-bottom: 37px;
+  margin-bottom: 10px;
 }
 
 .content_block_6 .info-inner .info-list li{
   position: relative;
   display: block;
   padding-left: 85px;
-  padding-bottom: 25px;
-  margin-bottom: 28px;
+  padding-bottom:15px;
+  margin-bottom: 15px;
   border-bottom: 1px solid #eee8e8;
 }
 
@@ -4761,7 +4762,16 @@ div#mCSB_1_container{
 }
 .product .title-product{
   background-color: red;
-  width: 250px;
-  padding: 10px;
+  width: 300px;
+  padding: 5px 10px 5px 10px;
   clip-path: polygon(0% 0%, 84% 0, 92% 47%, 100% 100%, 0% 100%);
+  font-weight: 500;
+}
+.product .title-product span{
+  font-size: 18px;
+  color: white;
+}
+.product .add-product a{
+  font-size: 14px;
+  color:red;
 }

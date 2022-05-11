@@ -1,6 +1,9 @@
 
 /* template-color */
+:root{
+    --text-color: red;
 
+}
 .scroll-top{
     background: red;
   }
@@ -60,6 +63,7 @@
   
   .sec-title h2:after{
       background: red;
+      color: red;
   }
   
   .content_block_1 .content-box .support-box h4 a:hover{
