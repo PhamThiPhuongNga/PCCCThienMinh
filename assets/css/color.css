@@ -1,6 +1,9 @@
 
 /* template-color */
+:root{
+    --text-color: red;
 
+}
 .scroll-top{
     background: red;
   }
@@ -60,6 +63,7 @@
   
   .sec-title h2:after{
       background: red;
+      color: red;
   }
   
   .content_block_1 .content-box .support-box h4 a:hover{
@@ -126,9 +130,9 @@
       background: red;
   }
   
-  .news-block-one .image-box .image{
+  /* .news-block-one .image-box .image{
       background: red;
-  }
+  } */
   
   .news-block-one .image-box .post-date{
       background: red;
@@ -142,11 +146,11 @@
       color: red;
   }
   
-  .news-block-one .content-box h2 a:hover{
+  .news-block-one .content-box p{
     color: red;
   }
   
-  .news-block-one .content-box .link a:hover{
+ .news-block-one .content-box .link a:hover{
       background: red;
   }
   
