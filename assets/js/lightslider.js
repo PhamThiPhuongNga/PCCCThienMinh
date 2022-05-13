@@ -1,7 +1,7 @@
 (function ($, undefined) {
     'use strict';
     var defaults = {
-        item: 3,
+        item: 4,
         autoWidth: false,
         slideMove: 1,
         slideMargin: 10,
@@ -24,7 +24,7 @@
         adaptiveHeight: false,
         vertical: false,
         verticalHeight: 500,
-        vThumbWidth: 100,
+        vThumbWidth: 10,
         thumbItem: 10,
         pager: true,
         gallery: false,

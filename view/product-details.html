@@ -25,9 +25,29 @@
 <link href="/assets/css/style.css" rel="stylesheet">
 <link href="/assets/css/responsive.css" rel="stylesheet">
 
+<link type="text/css" rel="stylesheet" href="/assets/css/lightslider.min.css" />                  
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/assets/js/lightslider.js"></script>
 </head>
 
-
+<script type="text/javascript">
+    $(document).ready(function() {
+      $("#lightSlider").lightSlider(); 
+    });
+  </script>
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          var slider = $("#lightSlider").lightSlider();
+          slider.goToSlide(4);
+          slider.goToPrevSlide();
+          slider.goToNextSlide();
+          slider.getCurrentSlideCount();
+          slider.refresh();
+          slider.play(); 
+          slider.pause();    
+        });
+      </script>
 <!-- page wrapper -->
 <body>
 
@@ -224,12 +244,11 @@
             <div class="auto-container">
                 <div class="content-box">
                     <div class="title">
-                        <h1>SẢN PHẨM</h1>
+                        <h1>Fire Fighting</h1>
                     </div>
                     <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Trang chủ</a></li>
-                        <li>Sản phẩm</li>
-                        <li>Hệ thống báo cháy</li>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Service Details</li>
                     </ul>
                 </div>
             </div>
@@ -241,20 +260,6 @@
         <section class="service-details">
             <div class="auto-container">
                 <div class="row clearfix">
-                    <div class="col-lg-9 col-md-12 col-sm-12 content-side">
-                        <div class="service-details-content">
-                            <div class="inner-box">
-                                <div class="product"><h4>DANH SÁCH SẢN PHẨM</h4></div>
-                                <div class="post-info">
-                                    <div class=""><i class="fa fa-calendar mr-2"></i>Ngaptp - 10/10/2021</div>
-                                    <div>
-                                        <div class="fb-like fb_iframe_widget" data-href="" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=538897933198331&amp;container_width=0&amp;href=https%3A%2F%2Ffisavietnam.com%2Fgoi-xay-lap-chua-hai-giac-pr20&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;size=small&amp;width="><span style="vertical-align: bottom; width: 120px; height: 28px;"><iframe name="f2d8e64dc217348" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v9.0/plugins/like.php?action=like&amp;app_id=538897933198331&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2b5b7c6109e68c%26domain%3Dfisavietnam.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Ffisavietnam.com%252Ff22d98cb6686028%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Ffisavietnam.com%2Fgoi-xay-lap-chua-hai-giac-pr20&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;size=small&amp;width=" style="border: none; visibility: visible; width: 120px; height: 20px;" class=""></iframe></span></div>
-                                    </div>
-                                </div>
-                                <figure class="image-box"><img src="/assets/images/service/service-1.jpg" alt="" height="500px"></figure>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 sidebar-side">
                         <div class="service-sidebar default-sidebar">
                             <div class="sidebar-widget categori-widget">
@@ -267,6 +272,7 @@
                                         <li><a href="service-details-2.html">HỆ THỐNG CHỮA CHÁY</a></li>
                                         <li><a href="service-details-3.html">HỆ THỐNG TĂNG ÁP HÚT KHÓI</a></li>
                                         <li><a href="service-details-4.html">HỆ THỐNG ĐÈN EXIT SỰ CỐ</a></li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="sidebar-widget advise-widget">
@@ -284,64 +290,144 @@
                             </div>
                         </div>
                     </div>
-                    <!-- image thi cong -->
+                    <div class="col-lg-9 col-md-12 col-sm-12 content-side">
+                        <div class="service-details-content">
+                            <div class="inner-box">
+                                <div class="two-column">
+                                    <div class="d-flex align-items-center clearfix">
+                                        <div class="col-lg-7 col-md-6 col-sm-12">
+                                            <figure class="image-box"><img src="/assets/images/service/service-2.jpg" alt=""></figure>
+                                        </div>
+                                        <div class="col-lg-5 col-md-6 col-sm-12">
+                                            <div class="text">
+                                                <h4>LA303H1-10 I TỦ BÁO CHÁY HOCHIKI LATITUDE 2-16 LOOP</h4>
+                                                <p>Mô tả ngắn:</p>
+                                                <div class="row">
+                                                    <ul class="col-lg-6 col-md-6 col-sm-12 list clearfix">
+                                                        <li>Mã sản phẩm:</li>
+                                                        <li>Hãng sản xuất:</li>
+                                                        <li>Xuất xứ:</li>
+                                                        <li>Số lượng:</li>
+                                                        <li>Giá:</li>
+                                                    </ul>
+                                                    <ul class="col-lg-6 col-md-6 col-sm-12 list clearfix">
+                                                        <li>Mã sản phẩm:</li>
+                                                        <li>Hãng sản xuất:</li>
+                                                        <li>Xuất xứ:</li>
+                                                        <li>
+                                                            <div class="quantity row">
+                                                                <div class="quantity__btn" data-plus="-1"></div>
+                                                                    <input class="quantity__input" type="text" value="1" min="1" data-type="number">
+                                                                <div class="quantity__btn" data-plus="1"></div>
+                                                            </div>
+                                                        </li>
+                                                        <li style="color: red;font-weight:700;">Liên hệ</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="order mt-3">
+                                                    <a href="index-2.html" style="color:white;">Đặt hàng</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 text">
                         <div class="post-subtitle row">
-                            <button type="submit"><span><a href="" class="">Thông tin chi tiết dự án</a></span></button>
+                            <button type="submit"><span><a href="" class="">THÔNG SỐ KỸ THUẬT</a></span></button>
                             <button>/</button>
-                            <button type="submit"><span><a href="" class="">Hình ảnh thi công</a></span></button>
+                            <button type="submit"><span><a href="" class="">CHI TIẾT SẢN PHẨM</a></span></button>
+                            <button>/</button>
+                            <button type="submit"><span><a href="" class="">BÌNH LUẬN</a></span></button>
                         </div>
-                        <div>
-                            <span><strong>Dự án:</strong> Huyndai Sơn Tây</span></br>
-                            <span><strong>Chủ đầu tư:</strong> Công Ty TNHH</span></br>
-                            <span><strong>Nội dung công viêc:</strong> Cung cấp, lắp đặt hệ thống PCCC</span>
+                        <span>Mô tả sản phẩm</span>
+                        
+                    </div>
+                    <div class="auto-container">
+                        <div class="sec-title centred">
+                            <h2>SẢN PHẨM LIÊN QUAN</h2>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
-                                <div class="testimonial-block-one">
+                        <div id="lightSlider">
+                            <div class="col-lg-3 col-md-12 col-sm-12 team-block">
+                                <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
                                     <div class="inner-box">
-                                        <figure class="image-box">
-                                            <a href="" class="">
-                                                <img src="/assets/images/gallery/gallery-1.jpg" alt=""height="270" width="100%">
-                                            </a>
-                                        </figure>
+                                        <figure class="image-box"><img src="/assets/images/team/team-3.jpg" alt=""></figure>
+                                        <div class="lower-content">
+                                            <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
+                                            <span><a href="" class="designation">Giá: Liên hệ</a></span>
+                                            <div class="figcaption"style=" height: 35px;
+                                            background-color: red;">
+                                                <a href="index-2.html"style="color:white;">Xem chi tiết</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>  
-                            <div class="col-lg-4 col-md-12 col-sm-12">
-                                <div class="testimonial-block-one">
+                            </div>
+                            <div class="col-lg-3 col-md-12 col-sm-12 team-block">
+                                <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
                                     <div class="inner-box">
-                                        <figure class="image-box">
-                                            <a href="" class="">
-                                                <img src="/assets/images/gallery/gallery-1.jpg" alt=""height="270"  width="100%">
-                                            </a>
-                                        </figure>
+                                        <figure class="image-box"><img src="/assets/images/team/team-3.jpg" alt=""></figure>
+                                        <div class="lower-content">
+                                            <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
+                                            <span class="designation">Giá: Liên hệ</span>
+                                            <div class="figcaption"style=" height: 35px;
+                                            background-color: red;">
+                                                <a href="index-2.html"style="color:white;">Xem chi tiết</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>  
-                            <div class="col-lg-4 col-md-12 col-sm-12">
-                                <div class="testimonial-block-one">
+                            </div>
+                            <div class="col-lg-3 col-md-12 col-sm-12 team-block">
+                                <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
                                     <div class="inner-box">
-                                        <figure class="image-box">
-                                            <a href="" class="">
-                                                <img src="/assets/images/gallery/gallery-1.jpg" alt=""height="270" width="100%">
-                                            </a>
-                                        </figure>
+                                        <figure class="image-box"><img src="assets/images/team/team-3.jpg" alt=""></figure>
+                                        <div class="lower-content">
+                                            <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
+                                            <span><a href="" class="designation">Giá: Liên hệ</a></span>
+                                            <div class="figcaption"style=" height: 35px;
+                                            background-color: red;">
+                                                <a href="index-2.html"style="color:white;">Xem chi tiết</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>  
-                            <div class="col-lg-4 col-md-12 col-sm-12">
-                                <div class="testimonial-block-one">
+                            </div>
+                            <div class="col-lg-3 col-md-12 col-sm-12 team-block">
+                                <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
                                     <div class="inner-box">
-                                        <figure class="image-box">
-                                            <a href="" class="">
-                                                <img src="/assets/images/gallery/gallery-1.jpg" alt=""height="270" width="100%">
-                                            </a>
-                                        </figure>
+                                        <figure class="image-box"><img src="assets/images/gallery/gallery-2.jpg" alt=""></figure>
+                                        <div class="lower-content">
+                                            <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
+                                            <span><a href="" class="designation">Giá: Liên hệ</a></span>
+                                            <div class="figcaption"style=" height: 35px;
+                                            background-color: red;">
+                                                <a href="index-2.html"style="color:white;">Xem chi tiết</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>    
+                            </div>
+                            <div class="col-lg-3 col-md-12 col-sm-12 team-block">
+                                <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
+                                    <div class="inner-box">
+                                        <figure class="image-box"><img src="assets/images/gallery/gallery-2.jpg" alt=""></figure>
+                                        <div class="lower-content">
+                                            <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
+                                            <span><a href="" class="designation">Giá: Liên hệ</a></span>
+                                            <div class="figcaption"style=" height: 35px;
+                                            background-color: red;">
+                                                <a href="index-2.html"style="color:white;">Xem chi tiết</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
+                        <div class="lSAction"><a class="lSPrev"></a><a class="lSNext"></a></div>    
                     </div>
                 </div>
             </div>
@@ -507,7 +593,7 @@
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/validation.js"></script>
     <script src="assets/js/jquery.fancybox.js"></script>
-    <script src="assets/js/appear.js"></script> 
+    <script src="assets/js/appear.js"></script>
     <script src="assets/js/jquery.countTo.js"></script>
 
     <!-- main-js -->

@@ -280,10 +280,10 @@
       background: red;
   }
   
-  .service-details-content .inner-box h4{
+  /* .service-details-content .inner-box h4{
       color: red;
   }
-  
+   */
   .service-details-content .inner-box .two-column .list li:before{
       color: red;
   }
