@@ -4280,7 +4280,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 14px;
 }
-.quantity__btn:first-child {
+/* .quantity__btn:first-child {
   border-radius: 14px 0 0 14px;
   border-right: 0;
 }
@@ -4313,7 +4313,7 @@ div#mCSB_1_container{
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  /* height: 28px; */
+  /* height: 28px; 
   min-width: 20px;
   max-width: 44px;
   border: 1px solid #ccc;
@@ -4327,7 +4327,7 @@ div#mCSB_1_container{
 }
 .quantity__btn:not(:first-child)::after {
   content: "\2b";
-}
+} */
 .order{
   height:auto;
   background-color: red;
@@ -4887,9 +4887,6 @@ div#mCSB_1_container{
 .img-magnifier-container {
   position:relative;
 }
-    .img-magnifier-container {
-  position:relative;
-}
 
 .img-magnifier-glass {
   position: absolute;
@@ -4958,12 +4955,12 @@ img {
 }
 
 /* Container for image text */
-.caption-container {
+/* .caption-container {
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
   color: white;
-}
+} */
 
 .row:after {
   content: "";
@@ -4986,3 +4983,51 @@ img {
 .demo:hover {
   opacity: 1;
 }
+
+/* ====css tăng giảm số lượng */
+.buttons_added {
+  opacity:1;
+  display:inline-block;
+  display:-ms-inline-flexbox;
+  display:inline-flex;
+  white-space:nowrap;
+  vertical-align:top;
+}
+.is-form {
+  overflow:hidden;
+  position:relative;
+  background-color:#f9f9f9;
+  height:2.2rem;
+  width:1.9rem;
+  padding:0;
+  text-shadow:1px 1px 1px #fff;
+  border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+  outline:none;
+}
+.is-form.minus {
+  border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+  border-radius:0 4px 4px 0;
+}
+.input-qty {
+  background-color:#fff;
+  height:2.2rem;
+  text-align:center;
+  font-size:13px;
+  display:inline-block;
+  vertical-align:top;
+  margin:0;
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+  border-left:0;
+  border-right:0;
+  padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+  -webkit-appearance:none;
+  margin:0;
+}
+/* end===tăng giảm số lượng */
