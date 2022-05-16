@@ -495,7 +495,7 @@ img {
 }
 .text-about{
   font-weight: 600;
-  color: rgb(29, 28, 28);
+  color: red;
 }
 .sec-title.light h2{
   color: #fff;
@@ -1737,15 +1737,15 @@ div#mCSB_1_container{
   position: absolute;
   left: -60px;
   bottom: 0px;
-  max-width: 200px;
+  max-width: 150px;
   width: 100%;
-  padding: 34px 50px 37px 50px;
+  padding: 30px 40px 30px 40px;
   text-align: center;
 }
 
 .image_block_1 .image-box .image-content h2{
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 40px;
+  line-height: 40px;
   color: #fff;
   font-weight: 900;
   margin-bottom: 14px;
@@ -2626,13 +2626,12 @@ div#mCSB_1_container{
   max-width: 100%;
   width: auto;
   margin: 0 auto;
-  opacity: 0.2;
   transition: all 500ms ease;
 }
 
-.clients-section .clients-logo-box img:hover{
+/* .clients-section .clients-logo-box img:hover{
   opacity: 1;
-}
+} */
 
 
 /** news-section **/
@@ -2889,7 +2888,7 @@ div#mCSB_1_container{
 
 .footer-top{
   position: relative;
-  padding: 93px 0px 100px 0px;
+  padding: 70px 0px 50px 0px;
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 

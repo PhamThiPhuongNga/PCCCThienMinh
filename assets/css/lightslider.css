@@ -76,6 +76,7 @@
     margin: 10px 0 0;
     padding: 0;
     text-align: center;
+    display: none;
 }
 .lSSlideOuter .lSPager.lSpg > li {
     cursor: pointer;
@@ -154,7 +155,7 @@
     display: block;
     top: 50%;
     height: 32px;
-    background-image: url('../img/controls.png');
+    background-image: url('/assets/images/controls.png');
     cursor: pointer;
     position: absolute;
     z-index: 99;
@@ -162,6 +163,7 @@
     opacity: 0.5;
     -webkit-transition: opacity 0.35s linear 0s;
     transition: opacity 0.35s linear 0s;
+    background-color: red;
 }
 .lSAction > a:hover {
     opacity: 1;

@@ -25,9 +25,18 @@
 <link href="assets/css/style.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet">
 
+<link type="text/css" rel="stylesheet" href="assets/css/lightslider.css">
+<link rel="stylesheet" href="assets/css/lightslider.css">                  
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="assets/js/lightslider.js"></script>
+<script src="assets/js/js.slideshow-galleri.js"></script>
+<script src="assets/js/plus-minus-number.js"></script>
 </head>
-
-
+<script type="text/javascript">
+    $(document).ready(function() {
+      $("#lightSlider").lightSlider(); 
+    });
+</script>
 <!-- page wrapper -->
 <body>
 
@@ -98,7 +107,7 @@
                 <div class="auto-container">
                     <div class="outer-box clearfix">
                         <div class=" pull-left" style="position: relative;margin-right: 90px;">
-                            <figure class="logo"><a href="index.html"><img src="assets/images/LOGOTM.png" alt="" width="70px"height = "100px" ></a></figure>
+                            <figure class="logo"><a href="index.html"><img src="/assets/images/LOGOTM.png" alt="" width="70px"height = "100px" ></a></figure>
                         </div>
                         <div class="menu-area pull-left">
                             <!--Mobile Navigation Toggler-->
@@ -116,77 +125,16 @@
                                                 <li><a href="index.html">Giới thiệu công ty</a></li>
                                                 <li><a href="index-2.html">Tầm nhìn sứ mệnh</a></li>
                                                 <li><a href="index-onepage.html">Chiến lược phát triển</a></li>
-                                                <!-- <li><a href="index-rtl.html">RTL Home</a></li>
-                                                <li class="dropdown"><a href="index.html">Header Style</a>
-                                                    <ul>
-                                                        <li><a href="index.html">Header Style 01</a></li>
-                                                        <li><a href="index-2.html">Header Style 02</a></li>
-                                                    </ul>
-                                                </li> -->
+                                                <li><a href="index-onepage.html">Hình ảnh thi công</a></li>
                                             </ul>
                                         </li> 
-                                        <!-- <li class="dropdown"><a href="index.html">Pages</a>
-                                            <ul>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="team.html">Our Firefighters</a></li>
-                                                <li><a href="gallery.html">Our Gallery</a></li>
-                                                <li><a href="contact.html">Contact Us</a></li>
-                                                <li><a href="error.html">404</a></li>
-                                            </ul>
-                                        </li> -->
-                                        <!-- <li class="dropdown"><a href="index.html">Services</a>
-                                            <ul>
-                                                <li><a href="service.html">Our Services</a></li>
-                                                <li><a href="service-details.html">Fire Fighting</a></li>
-                                                <li><a href="service-details-2.html">Operation Force</a></li>
-                                                <li><a href="service-details-3.html">Fire Suppression</a></li>
-                                                <li><a href="service-details-4.html">Ambulance Service</a></li>
-                                                <li><a href="service-details-5.html">Fire Investigation</a></li>
-                                                <li><a href="service-details-6.html">Community Safety</a></li>
-                                            </ul>
-                                        </li> -->
                                         <li class="dropdown"><a href="index.html">SẢN PHẨM</a>
-                                            <div class="megamenu">
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-4 column">
-                                                        <ul>
-                                                            <li><h4>Hệ thống báo cháy</h4></li>
-                                                            <li><a href="about-element-1.html">About Block 01</a></li>
-                                                            <li><a href="about-element-2.html">About Block 02</a></li>
-                                                            <li><a href="service-element-1.html">Service Block 01</a></li>
-                                                            <li><a href="service-element-2.html">Service Block 02</a></li>
-                                                            <li><a href="team-element-1.html">Team Block 01</a></li>
-                                                            <li><a href="team-element-2.html">Team Block 02</a></li>
-                                                            <li><a href="news-element-1.html">News Block 01</a></li>
-                                                            <li><a href="news-element-2.html">News Block 02</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-4 column">
-                                                        <ul>
-                                                            <li><h4>Hệ thống chữa cháy</h4></li>
-                                                            <li><a href="skrills-element.html">Skrills Block</a></li>
-                                                            <li><a href="project-element.html">Project Block</a></li>
-                                                            <li><a href="video-element.html">Video Block</a></li>
-                                                            <li><a href="testimonial-element.html">Testimonial Block</a></li>
-                                                            <li><a href="clients-element.html">Clients Block</a></li>
-                                                            <li><a href="feature-element.html">Feature Block</a></li>
-                                                            <li><a href="cta-element.html">CTA Block</a></li>
-                                                        </ul>
-                                                    </div>  
-                                                    <div class="col-lg-4 column">
-                                                        <ul>
-                                                            <li><h4>Hệ thống chữa cháy</h4></li>
-                                                            <li><a href="skrills-element.html">Skrills Block</a></li>
-                                                            <li><a href="project-element.html">Project Block</a></li>
-                                                            <li><a href="video-element.html">Video Block</a></li>
-                                                            <li><a href="testimonial-element.html">Testimonial Block</a></li>
-                                                            <li><a href="clients-element.html">Clients Block</a></li>
-                                                            <li><a href="feature-element.html">Feature Block</a></li>
-                                                            <li><a href="cta-element.html">CTA Block</a></li>
-                                                        </ul>
-                                                    </div>                                
-                                                </div>                                        
-                                            </div>
+                                            <ul>
+                                                <li><a href="index.html">Giới thiệu công ty</a></li>
+                                                <li><a href="index-2.html">Tầm nhìn sứ mệnh</a></li>
+                                                <li><a href="index-onepage.html">Chiến lược phát triển</a></li>
+                                                <li><a href="index-onepage.html">Hình ảnh thi công</a></li>
+                                            </ul>
                                         </li> 
                                         <li class="dropdown"><a href="index.html">DỰ ÁN</a>
                                             <ul>
@@ -219,7 +167,7 @@
                         <div class="support-box pull-right">
                             <i class="flaticon-call"></i>
                             <p>HOTLINE</p>
-                            <h4><a href="tel:0334972038">033.497.2038</a></h4>
+                            <h4><a href="tel:0334972038">0334.972.038</a></h4>
                         </div>
                     </div>
                 </div>
@@ -329,11 +277,11 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div class="image_block_1">
                             <div class="image-box">
-                                <figure class="image"><img src="assets/images/resource/about-1.jpg" alt=""></figure>
-                                <div class="image-content">
+                                <figure class="image"><img src="assets/images//resource/image.png" alt=""></figure>
+                                <!-- <div class="image-content">
                                     <h2>5</h2>
-                                    <h5>KINH NGHIỆM</h5>
-                                </div>
+                                    <h5>Năm</h5>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -444,91 +392,100 @@
                 </div>
         </section>
         <!-- service-section end -->
-
         <section class="service-section bg-color-1">
             <div class="auto-container">
                 <div class="sec-title centred">
                     <h2>SẢN PHẨM TIÊU BIỂU</h2>
                 </div>
-                <div>
+                <div class="team-page-section">
                     <div class="product">
                         <p class="title-product"style="left:0;"><span class="">HỆ THỐNG BÁO CHÁY</span></p>
                         <p class="add-product"><a href="" class="">>> Xem thêm</a></p>
                     </div>
-                    <section class="team-page-section centred">
-                        
-                        <div class="auto-container">
-                            <div class="row clearfix">
-                                <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                                    <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
-                                        <div class="inner-box">
-                                            <figure class="image-box"><img src="assets/images/team/team-3.jpg" alt=""></figure>
-                                            <div class="lower-content">
-                                                <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
-                                                <span><a href="" class="designation">Giá: Liên hệ</a></span>
-                                                <div class="figcaption"style=" height: 35px;
-                                                background-color: red;">
-                                                    <a href="index-2.html"style="color:white;">Xem chi tiết</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                                    <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
-                                        <div class="inner-box">
-                                            <figure class="image-box"><img src="assets/images/team/team-3.jpg" alt=""></figure>
-                                            <div class="lower-content">
-                                                <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
-                                                <span class="designation">Giá: Liên hệ</span>
-                                                <div class="figcaption"style=" height: 35px;
-                                                background-color: red;">
-                                                    <a href="index-2.html"style="color:white;">Xem chi tiết</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                                    <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
-                                        <div class="inner-box">
-                                            <figure class="image-box"><img src="assets/images/team/team-3.jpg" alt=""></figure>
-                                            <div class="lower-content">
-                                                <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
-                                                <span><a href="" class="designation">Giá: Liên hệ</a></span>
-                                                <div class="figcaption"style=" height: 35px;
-                                                background-color: red;">
-                                                    <a href="index-2.html"style="color:white;">Xem chi tiết</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                                    <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
-                                        <div class="inner-box">
-                                            <figure class="image-box"><img src="assets/images/gallery/gallery-2.jpg" alt=""></figure>
-                                            <div class="lower-content">
-                                                <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
-                                                <span><a href="" class="designation">Giá: Liên hệ</a></span>
-                                                <div class="figcaption"style=" height: 35px;
-                                                background-color: red;">
-                                                    <a href="index-2.html"style="color:white;">Xem chi tiết</a>
-                                                </div>
-                                            </div>
+                    <div id="lightSlider" class=" centred">
+                        <div class="col-lg-3 col-md-12 col-sm-12 team-block">
+                            <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="/assets/images/team/team-3.jpg" alt=""></figure>
+                                    <div class="lower-content">
+                                        <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
+                                        <span><a href="" class="designation">Giá: Liên hệ</a></span>
+                                        <div class="figcaption"style=" height: 35px;
+                                        background-color: red;">
+                                            <a href="index-2.html"style="color:white;">Xem chi tiết</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                        <div class="col-lg-3 col-md-12 col-sm-12 team-block">
+                            <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="/assets/images/team/team-3.jpg" alt=""></figure>
+                                    <div class="lower-content">
+                                        <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
+                                        <span class="designation">Giá: Liên hệ</span>
+                                        <div class="figcaption"style=" height: 35px;
+                                        background-color: red;">
+                                            <a href="index-2.html"style="color:white;">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-sm-12 team-block">
+                            <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="assets/images/team/team-3.jpg" alt=""></figure>
+                                    <div class="lower-content">
+                                        <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
+                                        <span><a href="" class="designation">Giá: Liên hệ</a></span>
+                                        <div class="figcaption"style=" height: 35px;
+                                        background-color: red;">
+                                            <a href="index-2.html"style="color:white;">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-sm-12 team-block">
+                            <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="assets/images/gallery/gallery-2.jpg" alt=""></figure>
+                                    <div class="lower-content">
+                                        <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
+                                        <span><a href="" class="designation">Giá: Liên hệ</a></span>
+                                        <div class="figcaption"style=" height: 35px;
+                                        background-color: red;">
+                                            <a href="index-2.html"style="color:white;">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-sm-12 team-block">
+                            <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="assets/images/gallery/gallery-2.jpg" alt=""></figure>
+                                    <div class="lower-content">
+                                        <h4><a href="index-2.html">Kevin MartinĐẦU BÁO CHÁY ĐẦU BÁO CHÁY ĐẦU BÁO CHÁY</a></h4>
+                                        <span><a href="" class="designation">Giá: Liên hệ</a></span>
+                                        <div class="figcaption"style=" height: 35px;
+                                        background-color: red;">
+                                            <a href="index-2.html"style="color:white;text-align:center;">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <div class="product">
                         <p class="title-product"style="left:0;"><span class="">HỆ THỐNG CHỮA CHÁY</span></p>
                         <p class="add-product"><a href="" class="">>> Xem thêm</a></p>
                     </div>
-                    <section class="team-page-section centred">
+                    <section class="team-page-section centred"id="lightSlider">
                         
                         <div class="auto-container">
                             <div class="row clearfix">
@@ -932,7 +889,7 @@
                            
                             <figure class="image-box">
                                 <a href="" class="">
-                                    <img src="assets/images/gallery/gallery-1.jpg" alt=""height="370" width="470">
+                                    <img src="assets/images/gallery/ktxthuyloi.jpg" alt=""height="370" width="470">
                                 </a>
                             </figure>
                             <!-- <figure class="author-thumb"><img src="assets/images/resource/testimonial-2.png" alt=""></figure>
@@ -949,7 +906,7 @@
                         <div class="inner-box">
                             <figure class="image-box">
                                 <a href="" class="">
-                                    <img src="assets/images/gallery/gallery-1.jpg" alt="" height="370"width="470">
+                                    <img src="assets/images/gallery/dannamcuong.jpg" alt="" height="370"width="470">
                                 </a>
                             </figure>
                             <div class="author-info">
@@ -962,7 +919,7 @@
                         <div class="inner-box">
                             <figure class="image-box">
                                 <a href="" class="">
-                                    <img src="assets/images/gallery/gallery-1.jpg" alt="" height="370"width="470">
+                                    <img src="assets/images/gallery/platinum3 (1).jpg" alt="" height="370"width="470">
                                 </a>
                             </figure>
                             <div class="author-info">
@@ -984,11 +941,11 @@
             </div>
             <div class="auto-container">
                 <div class="clients-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
-                    <figure class="clients-logo-box"><a href="index.html"><img src="assets/images/clients/clients-logo-1.png" alt=""></a></figure>
-                    <figure class="clients-logo-box"><a href="index.html"><img src="assets/images/clients/clients-logo-2.png" alt=""></a></figure>
-                    <figure class="clients-logo-box"><a href="index.html"><img src="assets/images/clients/clients-logo-3.png" alt=""></a></figure>
-                    <figure class="clients-logo-box"><a href="index.html"><img src="assets/images/clients/clients-logo-4.png" alt=""></a></figure>
-                    <figure class="clients-logo-box"><a href="index.html"><img src="assets/images/clients/clients-logo-5.png" alt=""></a></figure>
+                    <figure style=""class="clients-logo-box"><a href="index.html"><img src="assets/images/clients/logodgt.png" alt=""height="80px" width="80px"></a></figure>
+                    <figure class="clients-logo-box"><a href="index.html"><img src="assets/images/clients/winnylogo.png" alt=""height="80px" width="80px"></a></figure>
+                    <figure class="clients-logo-box"><a href="index.html"><img src="assets/images/clients/clients-logo-3.png" alt="" height="80px" width="80px"></a></figure>
+                    <figure class="clients-logo-box"><a href="index.html"><img src="assets/images/clients/clients-logo-4.png" alt=""height="80px" width="80px"></a></figure>
+                    <figure class="clients-logo-box"><a href="index.html"><img src="assets/images/clients/clients-logo-5.png" alt=""height="80px" width="80px"></a></figure>
                 </div>
             </div>
         </section>
@@ -1062,12 +1019,12 @@
                         <div class="text">
                             <!-- <div class="icon-box"><i class="flaticon-mail"></i></div> -->
                             <h4>CÔNG TY TNHH PHÒNG CHÁY CHỮA CHÁY THIÊN MINH</h4>
-                            <p>Công ty TNHH PCCC Thiên Minh thành lập theo giấy đăng ký kinh doanh số 0108624490, do Sở Kế Hoạch và đầu tư thành phố Hà Nội cấp ngày 27 thánh 02 năm 2019.</p>
+                            <p style="color: rgb(185 176 176);font-size:14px;">Công ty TNHH PCCC Thiên Minh thành lập theo giấy đăng ký kinh doanh số 0108624490, do Sở Kế Hoạch và đầu tư thành phố Hà Nội cấp ngày 27 thánh 02 năm 2019.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 form-column">
                         <form action="index.html" method="post" class="newsletter-form">
-                            <p>Đăng ký để nhân bản tin</p>
+                            <p style="color: rgb(185 176 176);font-size:14px;">Đăng ký để nhân bản tin:</p>
                             <div class="form-group">
                                 <input type="email" name="email" placeholder="Email" required="">
                                 <button type="submit"><i class="fas fa-check"></i></button>
@@ -1188,7 +1145,7 @@
 
 
     <!-- jequery plugins -->
-    <script src="assets/js/jquery.js"></script>
+    <!-- <script src="assets/js/jquery.js"></script> -->
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.js"></script>
