@@ -1,4 +1,4 @@
-<!DOCTYPE html>fa-home
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -304,17 +304,17 @@
 								<ul class="nav">
 									<li>
 										<a href="#profile">
-											<span class="link-collapse">My Profile</span>
+											<span class="link-collapse">Thông tin cá nhân</span>
 										</a>
 									</li>
 									<li>
 										<a href="#edit">
-											<span class="link-collapse">Edit Profile</span>
+											<span class="link-collapse">Chỉnh sửa thông tin</span>
 										</a>
 									</li>
 									<li>
 										<a href="#settings">
-											<span class="link-collapse">Settings</span>
+											<span class="link-collapse">Cài đặt</span>
 										</a>
 									</li>
 								</ul>
@@ -328,20 +328,6 @@
 								<p>Bảng điều khiển</p>
 								<span class="caret"></span>
 							</a>
-							<div class="collapse" id="dashboard">
-								<ul class="nav nav-collapse">
-									<li>
-										<a href="../../demo1/index.html">
-											<span class="sub-item">Dashboard 1</span>
-										</a>
-									</li>
-									<li>
-										<a href="../../demo2/index.html">
-											<span class="sub-item">Dashboard 2</span>
-										</a>
-									</li>
-								</ul>
-							</div>
 						</li>
 						<li class="nav-section">
 							<span class="sidebar-mini-icon">
@@ -375,27 +361,22 @@
 								<ul class="nav nav-collapse">
 									<li>
 										<a href="../sidebar-style-1.html">
-											<span class="sub-item">Sidebar Style 1</span>
+											<span class="sub-item">Hệ thống báo cháy</span>
 										</a>
 									</li>
 									<li>
 										<a href="../overlay-sidebar.html">
-											<span class="sub-item">Overlay Sidebar</span>
+											<span class="sub-item">Hệ thống chữa cháy</span>
 										</a>
 									</li>
 									<li>
 										<a href="../compact-sidebar.html">
-											<span class="sub-item">Compact Sidebar</span>
+											<span class="sub-item">Hệ thống hút khói</span>
 										</a>
 									</li>
 									<li>
 										<a href="../static-sidebar.html">
-											<span class="sub-item">Static Sidebar</span>
-										</a>
-									</li>
-									<li>
-										<a href="../icon-menu.html">
-											<span class="sub-item">Icon Menu</span>
+											<span class="sub-item">Hệ thống exit sự cố</span>
 										</a>
 									</li>
 								</ul>
@@ -407,15 +388,6 @@
 								<p>Khách hàng</p>
 								<span class="caret"></span>
 							</a>
-							<div class="collapse" id="forms">
-								<ul class="nav nav-collapse">
-									<li>
-										<a href="../forms/forms.html">	
-											<span class="sub-item">Basic Form</span>
-										</a>
-									</li>
-								</ul>
-							</div>
 						</li>
 						<li class="nav-item active submenu">
 							<a data-toggle="collapse" href="#tables">
@@ -423,20 +395,6 @@
 								<p>Nhà cung cấp</p>
 								<span class="caret"></span>
 							</a>
-							<div class="collapse show" id="tables">
-								<ul class="nav nav-collapse">
-									<li>
-										<a href="../tables/tables.html">
-											<span class="sub-item">Basic Table</span>
-										</a>
-									</li>
-									<li class="active">
-										<a href="../tables/datatables.html">
-											<span class="sub-item">Datatables</span>
-										</a>
-									</li>
-								</ul>
-							</div>
 						</li>
 						<li class="nav-item">
 							<a data-toggle="collapse" href="#maps">
@@ -512,7 +470,7 @@
 								<i class="flaticon-right-arrow"></i>
 							</li>
 							<li class="nav-item">
-								<a href="#">Bảng dữ liệu</a>
+								<a href="#">Nhân viên</a>
 							</li>
 						</ul>
 					</div>
@@ -536,9 +494,9 @@
 													<h5 class="modal-title">
 														<span class="fw-mediumbold">
 														Thêm mới</span> 
-														<span class="fw-light">
+														<!-- <span class="fw-light">
 														mới
-														</span>
+														</span> -->
 													</h5>
 													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 														<span aria-hidden="true">&times;</span>
@@ -580,6 +538,130 @@
 															<div class="col-md-6">
 																<div class="form-group form-group-default">
 																	<label>Thể loại 
+																		<select name="basic-datatables_length" aria-controls="basic-datatables" class="form-control form-control-sm">
+																			<option value="10">10</option>
+																			<option value="25">25</option>
+																			<option value="50">50</option>
+																			<option value="100">100</option>
+																		</select>
+																	</label>
+																</div>
+															</div>
+															<div class="col-md-6 pr-0">
+																<div class="form-group form-group-default">
+																	<label>Model</label>
+																	<input id="addcost" type="text" class="form-control" placeholder="Giá">
+																</div>
+															</div>
+															<div class="col-md-6">
+																<div class="form-group form-group-default">
+																	<label>Đơn vị tính
+																		<select name="basic-datatables_length" aria-controls="basic-datatables" class="form-control form-control-sm">
+																			<option value="10">10</option>
+																			<option value="25">25</option>
+																			<option value="50">50</option>
+																			<option value="100">100</option>
+																		</select>
+																	</label>
+																</div>
+															</div>
+															<div class="col-md-6 pr-0">
+																<div class="form-group form-group-default">
+																	<label>Hãng sản xuất</label>
+																	<input id="addcost" type="text" class="form-control" placeholder="Giá">
+																</div>
+															</div>
+															<div class="col-md-6">
+																<div class="form-group form-group-default">
+																	<label>Xuất xứ
+																		<select name="basic-datatables_length" aria-controls="basic-datatables" class="form-control form-control-sm">
+																			<option value="10">10</option>
+																			<option value="25">25</option>
+																			<option value="50">50</option>
+																			<option value="100">100</option>
+																		</select>
+																	</label>
+																</div>
+															</div>
+														</div>
+													</form>
+												</div>
+												<div class="modal-footer no-bd">
+													<button type="button" id="addRowButton" class="btn btn-primary">Thêm</button>
+													<button type="button" class="btn btn-danger" data-dismiss="modal">Hủy</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal fade" id="EditRowModal" tabindex="-1" role="dialog" aria-hidden="false">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header no-bd">
+													<h5 class="modal-title">
+														<span class="fw-mediumbold">
+														Thêm mới</span> 
+														<!-- <span class="fw-light">
+														mới
+														</span> -->
+													</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<form>
+														<div class="row">
+															<div class="col-sm-12">
+																<div class="form-group form-group-default">
+																	<label>Tên sản phẩm</label>
+																	<input id="addName" type="text" class="form-control" placeholder="Tên sản phẩm">
+																</div>
+															</div>
+															<div class="col-sm-12">
+																<div class="form-group form-group-default">
+																	<label>Ảnh sản phẩm</label>
+																	<input id="addImage" type="text" class="form-control" placeholder="Ảnh">
+																</div>
+															</div>
+															<div class="col-sm-12">
+																<div class="form-group form-group-default">
+																	<label>Mô tả tính năng</label>
+																	<input id="addinfor" type="text" class="form-control" placeholder="Mô tả">
+																</div>
+															</div>
+															<div class="col-sm-12">
+																<div class="form-group form-group-default">
+																	<label>Thông số kỹ thuật</label>
+																	<input id="addinfor" type="text" class="form-control" placeholder="Thông số kỹ thuật">
+																</div>
+															</div>
+															<div class="col-md-6 pr-0">
+																<div class="form-group form-group-default">
+																	<label>Giá</label>
+																	<input id="addcost" type="text" class="form-control" placeholder="Giá">
+																</div>
+															</div>
+															<div class="col-md-6">
+																<div class="form-group form-group-default">
+																	<label>Thể loại 
+																		<select name="basic-datatables_length" aria-controls="basic-datatables" class="form-control form-control-sm">
+																			<option value="10">10</option>
+																			<option value="25">25</option>
+																			<option value="50">50</option>
+																			<option value="100">100</option>
+																		</select>
+																	</label>
+																</div>
+															</div>
+															<div class="col-md-6 pr-0">
+																<div class="form-group form-group-default">
+																	<label>Model</label>
+																	<input id="addcost" type="text" class="form-control" placeholder="Giá">
+																</div>
+															</div>
+															<div class="col-md-6">
+																<div class="form-group form-group-default">
+																	<label>Đơn vị tính
 																		<select name="basic-datatables_length" aria-controls="basic-datatables" class="form-control form-control-sm">
 																			<option value="10">10</option>
 																			<option value="25">25</option>
@@ -671,6 +753,9 @@
 													<td>$320,800</td>
 													<td>
 														<div class="form-button-action">
+															<button class="btn btn-link btn-primary btn-lg" data-toggle="model" data-target="#addRowModal" data-original-title="Edit Task">
+																<i class="fa fa-edit"></i>
+															</button>
 															<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
 																<i class="fa fa-edit"></i>
 															</button>
@@ -838,7 +923,6 @@
 			$('#add-row').DataTable({
 				"pageLength": 5,
 			});
-
 			var action = '<td> <div class="form-button-action"> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task"> <i class="fa fa-edit"></i> </button> <button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove"> <i class="fa fa-times"></i> </button> </div> </td>';
 
 			$('#addRowButton').click(function() {
