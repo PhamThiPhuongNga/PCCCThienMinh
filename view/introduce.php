@@ -1,7 +1,7 @@
 <?php require_once ("../view/template/header.php")?>
 
 <!--Page Title-->
-<section class="page-title centred" style="background-image: url(/assets/images/background/page-title.jpg);">
+<section class="page-title centred" style="background-image: url(../assets/images/background/page-title.jpg);">
     <div class="overlay-bg"></div>
     <div class="pattern-layer"></div>
     <div class="auto-container">
@@ -36,7 +36,7 @@
                                         Với các thành viên giàu kinh nghiệm và uy tín đã có nhiều năm gắn bó với nghề, hiểu biết kỹ thuật chuyên sâu, nắm vững chuyên môn nghiệp vụ. 
                                     </span></br>
                             <div class="centred mt-4">
-                                <img src="/assets/images/LOGOTM.png" alt="" width="100px" height="130px">
+                                <img src="../assets/images/LOGOTM.png" alt="" width="100px" height="130px">
                                 </br><span style="font-size: 13px;">Logo Công ty TNHH Phòng cháy chữa cháy Thiên Minh</span>
                             </div>
 
@@ -54,11 +54,11 @@
                         <div class="two-column">
                             <div class="row clearfix">
                                 <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                    <figure class="image-box"><img src="/assets/images/resource/image.png" alt=""></figure>
+                                    <figure class="image-box"><img src="../assets/images/resource/image.png" alt=""></figure>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                     <div class="text">
-                                        <h4>LĨNH VỰC KIN DOANH</h4>
+                                        <h4>LĨNH VỰC KINH DOANH</h4>
                                         <ul class="list-item clearfix">
                                             <li>Công ty TNHH Phòng cháy chữa cháy Thiên Minh hoạt động chính trong lĩnh vực cung cấp và thi công lắp đặt các phương tiện thiết bị và vật tư Phòng cháy chữa cháy:</li>
                                             <li>Cung cấp phương tiện, thiết bị , vât tư Phòng cháy chữa cháy: Hệ thống báo cháy, hệ thống chữa cháy, hệ thống tăng áp & hút khói và hệ thống đèn Exit sự cố.</li>
