@@ -9,29 +9,29 @@
     <title>CÔNG TY TNHH PHÒNG CHÁY CHỮA CHÁY THIÊN MINH</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" href="../assets/images/LOGOTM.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/LOGOTM.png" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.1-web/css/fontawesome.min.css">
     <!-- Stylesheets -->
-    <link href="../assets/css/font-awesome-all.css" rel="stylesheet">
-    <link href="../assets/css/flaticon.css" rel="stylesheet">
-    <link href="../assets/css/owl.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="../assets/css/animate.css" rel="stylesheet">
-    <link href="../assets/css/color.css" rel="stylesheet">
-    <link href="../assets/css/style.css" rel="stylesheet">
-    <link href="../assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/color.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
 
-    <link type="text/css" rel="stylesheet" href="../assets/css/lightslider.css">
-    <link rel="stylesheet" href="../assets/css/lightslider.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/lightslider.css">
+    <link rel="stylesheet" href="assets/css/lightslider.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../assets/js/lightslider.js"></script>
-    <script src="../assets/js/js.slideshow-galleri.js"></script>
-    <script src="../assets/js/plus-minus-number.js"></script>
+    <script src="assets/js/lightslider.js"></script>
+    <script src="assets/js/js.slideshow-galleri.js"></script>
+    <script src="assets/js/plus-minus-number.js"></script>
 </head>
 <script type="text/javascript">
     $(document).ready(function() {
@@ -112,7 +112,7 @@
                     <div class="outer-box clearfix">
                         <div class=" pull-left" style="position: relative;margin-right: 90px;">
                             <figure class="logo">
-                                <a href="index.html"><img src="../assets/images/LOGOTM.png" alt="" width="70px" height="100px"></a>
+                                <a href="index.html"><img src="assets/images/LOGOTM.png" alt="" width="70px" height="100px"></a>
                             </figure>
                         </div>
                         <div class="menu-area pull-left">
