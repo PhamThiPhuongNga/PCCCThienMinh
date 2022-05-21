@@ -126,12 +126,12 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
                                         <li class="current dropdown"><a href="index.php"><i class="fa fa-house"></i></a>
-                                            <li class="dropdown"><a href="introduct.php">GIỚI THIỆU</a>
+                                            <li class="dropdown"><a href="./introduce.php">GIỚI THIỆU</a>
                                                 <ul>
-                                                    <li><a href="introduct.php">Giới thiệu công ty</a></li>
-                                                    <li><a href="index-2.html">Tầm nhìn sứ mệnh</a></li>
-                                                    <li><a href="index-onepage.html">Chiến lược phát triển</a></li>
-                                                    <li><a href="index-onepage.html">Hình ảnh cong ty</a></li>
+                                                    <li><a href="./introduct.php">Giới thiệu công ty</a></li>
+                                                    <li><a href="./strategyIntro.php">Tầm nhìn sứ mệnh</a></li>
+                                                    <li><a href="./strategyIntro.php">Chiến lược phát triển</a></li>
+                                                    <li><a href="/view/strategyIntro.php">Hình ảnh công ty</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dropdown"><a href="product.php">SẢN PHẨM</a>
@@ -185,7 +185,7 @@
                     <div class="outer-box clearfix">
                         <div class="pull-left" style="position: relative;margin-right: 90px;">
                             <figure class="logo">
-                                <a href="index.php"><img src="assets/images/LOGOTM.png" alt="" width="70px" height="100px"></a>
+                                <a href="index.php"><img src="../assets/images/LOGOTM.png" alt="" width="70px" height="100px"></a>
                             </figure>
                         </div>
                         <div class="menu-area pull-left">

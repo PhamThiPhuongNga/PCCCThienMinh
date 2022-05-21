@@ -369,6 +369,12 @@
      float: right;
  }
  
+ .pull {
+     color: white;
+     font-weight: 500;
+     font-size: 20px;
+ }
+ 
  figure {
      margin: 0px;
  }
@@ -4984,4 +4990,4 @@
      -webkit-appearance: none;
      margin: 0;
  }
- /* end===tăng giảm số lượng */
+ /* end===tăng giảm số lượng
