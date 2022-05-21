@@ -131,10 +131,10 @@
                                                     <li><a href="./introduct.php">Giới thiệu công ty</a></li>
                                                     <li><a href="./strategyIntro.php">Tầm nhìn sứ mệnh</a></li>
                                                     <li><a href="./strategyIntro.php">Chiến lược phát triển</a></li>
-                                                    <li><a href="/view/strategyIntro.php">Hình ảnh công ty</a></li>
+                                                    <li><a href="./companyFace.php">Hình ảnh công ty</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="dropdown"><a href="product.php">SẢN PHẨM</a>
+                                            <li class="dropdown"><a href="./product.php">SẢN PHẨM</a>
                                                 <ul>
                                                     <li><a href="index.html">Hệ thống báo cháy</a></li>
                                                     <li><a href="index-2.html">Hệ thống chữa cháy</a></li>
@@ -142,7 +142,7 @@
                                                     <li><a href="index-onepage.html">Hệ thống đèn Exit sự cố</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="dropdown"><a href="project.php">DỰ ÁN</a>
+                                            <li class="dropdown"><a href="./project.php">DỰ ÁN</a>
                                                 <ul>
                                                     <li><a href="about.html">Năm 2019</a></li>
                                                     <li><a href="team.html">Năm 2020</a></li>
@@ -150,12 +150,12 @@
                                                     <li><a href="contact.html">Năm 2022</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="dropdown"><a href="news.php">TIN TỨC</a>
+                                            <li class="dropdown"><a href="./news.php">TIN TỨC</a>
                                                 <ul>
                                                     <li><a href="blog.html">Tuyển dụng</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="dropdown"><a href="contact.php">LIÊN HỆ</a></li>
+                                            <li class="dropdown"><a href="./contact.php">LIÊN HỆ</a></li>
                                             <li class="dropdown"><a href="index.html"><i class="fa fa-search">
                                             <form class="search" style="display: none;">
                                                 <div class="input-group">

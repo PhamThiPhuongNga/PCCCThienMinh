@@ -9,29 +9,29 @@
     <title>CÔNG TY TNHH PHÒNG CHÁY CHỮA CHÁY THIÊN MINH</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" href="assets/images/LOGOTM.png" type="image/x-icon">
+    <link rel="icon" href="../assets/images/LOGOTM.png" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.1-web/css/fontawesome.min.css">
     <!-- Stylesheets -->
-    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
-    <link href="assets/css/flaticon.css" rel="stylesheet">
-    <link href="assets/css/owl.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/color.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome-all.css" rel="stylesheet">
+    <link href="../assets/css/flaticon.css" rel="stylesheet">
+    <link href="../assets/css/owl.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/color.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/responsive.css" rel="stylesheet">
 
-    <link type="text/css" rel="stylesheet" href="assets/css/lightslider.css">
-    <link rel="stylesheet" href="assets/css/lightslider.css">
+    <link type="text/css" rel="stylesheet" href="../assets/css/lightslider.css">
+    <link rel="stylesheet" href="../assets/css/lightslider.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="assets/js/lightslider.js"></script>
-    <script src="assets/js/js.slideshow-galleri.js"></script>
-    <script src="assets/js/plus-minus-number.js"></script>
+    <script src="../assets/js/lightslider.js"></script>
+    <script src="../assets/js/js.slideshow-galleri.js"></script>
+    <script src="../assets/js/plus-minus-number.js"></script>
 </head>
 <script type="text/javascript">
     $(document).ready(function() {
@@ -112,7 +112,7 @@
                     <div class="outer-box clearfix">
                         <div class=" pull-left" style="position: relative;margin-right: 90px;">
                             <figure class="logo">
-                                <a href="index.html"><img src="assets/images/LOGOTM.png" alt="" width="70px" height="100px"></a>
+                                <a href="index.html"><img src="../assets/images/LOGOTM.png" alt="" width="70px" height="100px"></a>
                             </figure>
                         </div>
                         <div class="menu-area pull-left">
@@ -126,12 +126,12 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
                                         <li class="current dropdown"><a href="index.php"><i class="fa fa-house"></i></a>
-                                            <li class="dropdown"><a href="introduct.php">GIỚI THIỆU</a>
+                                            <li class="dropdown"><a href="introduce.php">GIỚI THIỆU</a>
                                                 <ul>
                                                     <li><a href="introduct.php">Giới thiệu công ty</a></li>
-                                                    <li><a href="index-2.html">Tầm nhìn sứ mệnh</a></li>
-                                                    <li><a href="index-onepage.html">Chiến lược phát triển</a></li>
-                                                    <li><a href="index-onepage.html">Hình ảnh cong ty</a></li>
+                                                    <li><a href="strategyIntro.php">Tầm nhìn sứ mệnh</a></li>
+                                                    <li><a href="strategyIntro.php">Chiến lược phát triển</a></li>
+                                                    <li><a href="companyFace.php">Hình ảnh công ty</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dropdown"><a href="product.php">SẢN PHẨM</a>
@@ -156,7 +156,7 @@
                                                 </ul>
                                             </li>
                                             <li class="dropdown"><a href="contact.php">LIÊN HỆ</a></li>
-                                            <li class="dropdown"><a href="index.html"><i class="fa fa-search">
+                                            <li class="dropdown"><a href="search.php"><i class="fa fa-search">
                                             <form class="search" style="display: none;">
                                                 <div class="input-group">
                                                     <input class="form-control" type="text" placeholder="Tìm kiếm...">
@@ -237,7 +237,6 @@
         </div>
         <!-- End Mobile Menu -->
 
-
         <!-- banner-section -->
         <section class="banner-section style-one">
             <div class="pattern-layer"></div>
@@ -291,10 +290,6 @@
                         <div class="image_block_1">
                             <div class="image-box">
                                 <figure class="image"><img src="assets/images//resource/image.png" alt=""></figure>
-                                <!-- <div class="image-content">
-                                    <h2>5</h2>
-                                    <h5>Năm</h5>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -308,16 +303,6 @@
                                     <p class="text-about"><i class="fa fa-house" style=" margin-right: 15px;color:red"></i>GIỚI THIỆU</p>
                                     <span>Công ty TNHH phòng cháy chữa cháy Thiên Minh hoạt động trong lĩnh vực kinh doanh thương mại các phương tiện, thiết bị, vật tư PCCC, tư vấn thiết kế, tư vấn giám sát về PCCC và thi công lắp đặt hệ thống PCCC.</span>
                                 </div>
-                                <!-- <div class="inner-box clearfix">
-                                    <div class="single-item">
-                                        <i class="flaticon-bonfire"></i>
-                                        <h4>Think of fire <br />before it starts</h4>
-                                    </div>
-                                    <div class="single-item">
-                                        <i class="flaticon-matches"></i>
-                                        <h4>Don’t play with matches</h4>
-                                    </div>
-                                </div> -->
                                 <div class="text ">
                                     <p class="text-about">TẠI SAO BẠN NÊN CHỌN PCCC THIÊN MINH ?</p>
                                     <span>Công ty TNHH phòng cháy chữa cháy Thiên Minh với nhiều năm kinh nghiệm chúng tôi cam kết mang lại thành công cho dự án của bạn.</span>
@@ -721,27 +706,18 @@
             <div class="pattern-layer" style="background-image: url(assets/images/shape/pattern-1.png);"></div>
             <div class="auto-container">
                 <div class="inner-box clearfix">
-                    <div class="text row ">
-                        <div class="col-lg-3 col-md-4 col-sm-12 ">
-                            <h4 class="pull-left">GIAO HÀNG TOÀN QUỐC</h4>
-                            <span></span>
+                    <div class="text row">
+                        <div class="col-lg-4 col-md-12 col-sm-12 pull centred">
+                            <h4 class="pull"><i class="fa fa-truck mr-2"></i>GIAO HÀNG TOÀN QUỐC</h4>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-12">
-                            <h4>GIÁ CẢ HỢP LÝ</h4>
-                            <span></span>
+                        <div class="col-lg-4 col-md-12 col-sm-12 pull centred">
+                            <h4 class="pull"><i class="fa fa-comment-alt-dollar mr-2"></i>GIÁ CẢ HỢP LÝ</h4>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-12 ">
-                            <h4>HỖ TRỢ TƯ VẤN 24/7</h4>
-                            <span><a href="tel:0033972038">0033.972.038</a></span>
+                        <div class="col-lg-4 col-md-12 col-sm-12 pull centred">
+                            <h4 class="pull">HỖ TRỢ TƯ VẤN 24/7</h4>
+                            <span><a class="pull" href="tel:0033972038">0033.972.038</a></span>
                         </div>
                     </div>
-                    <!-- text
-                    <div class=" pull-left">
-                        <h2>HỖ TRỢ TƯ VẤN 24/7<br /><a href="tel:0033972038">0033.972.038</a></h2>
-                    </div>
-                    <div class="btn-box pull-right">
-                        <a href="contact.html" class="theme-btn-one">Contact with us</a>
-                    </div> -->
                 </div>
             </div>
         </section>
@@ -943,7 +919,7 @@
                                     <div class="support-box">
                                         <i class="flaticon-call"></i>
                                         <p>HOTLINE</p>
-                                        <h4><a href="tel:0334972038">0334.972.038</a></h4>
+                                        <h4><a href="tel:0942874647">0942.874.647</a></h4>
                                     </div>
                                 </div>
                             </div>

@@ -43,7 +43,7 @@
                                     <div class="support-box">
                                         <i class="flaticon-call"></i>
                                         <p>HOTLINE</p>
-                                        <h4><a href="tel:0334972038">0334.972.038</a></h4>
+                                        <h4><a href="tel:0942874647">0942.874.647</a></h4>
                                     </div>
                                 </div>
                             </div>

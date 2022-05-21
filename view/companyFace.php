@@ -45,10 +45,10 @@
     <div class="auto-container">
         <div class="inner-box clearfix">
             <div class="text pull-left">
-                <h2>24/7 Available. Call us Immediately<br /><a href="tel:6668880000">666 888 0000</a></h2>
+                <h2>HỖ TRỢ TƯ VẤN 24/7<br /><a href="tel:0942874647">0942.874.647</a></h2>
             </div>
             <div class="btn-box pull-right">
-                <a href="contact.html" class="theme-btn-one">Contact with us</a>
+                <a href="contact.html" class="theme-btn-one">Liên hệ</a>
             </div>
         </div>
     </div>
