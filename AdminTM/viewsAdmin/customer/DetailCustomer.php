@@ -1,4 +1,4 @@
-<?php require_once("../templateAdmin/headerAdmin.php");?>
+<?php require_once("viewsAdmin/layout/header.php");?>
 <style>
 	.navbar-customer>a{
 		background: #1572e8!important;
@@ -94,4 +94,4 @@
 					</div>
 				</div>
 			</div>
-<?php require_once("../templateAdmin/footerAdmin.php");?>
+<?php require_once("viewsAdmin/layout/footer.php");?>

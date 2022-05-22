@@ -15,24 +15,26 @@
 		public function insert()
 		{
 			
-			
+			$querryInsert= data_to_sql_insert("nhanvien",$data);
+			$respon = exec_update($querryInsert);
+			return $respon;
 		}
 
 		public function update($id,$data)
 		{
 			$where = 'idEmp='.$id;
 			$querryUpdate = data_to_sql_update("nhanvien",$data,$where);
-
 			$respon = exec_update($querryUpdate);
 			return $respon;
 
 
 			
 		}
-		public function delete()
+		public function delete($id)
 		{
-
-			//return "ok";
+			$querryDelete = "UPDATE nhanvien set deleteStatus=1 where idEmp = $id";
+			$respon = exec_update($querryDelete);
+			return $respon;
 
 			
 		}

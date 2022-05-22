@@ -1,15 +1,15 @@
 
 <?php
-	require_once('modelAdmin/EmployeeModel.php');
-	class EmployeeController{
+	require_once('modelAdmin/customerModel.php');
+	class CustomerController{
 
 		public $erro;
 		public function index()
 		{
-			$employeeModel = new Employee();
-			$employee = $employeeModel->index();
+			$customerModel = new Customer();
+			$employee = $customerModel->index();
 			// print_r($employee);
-			require_once('viewsAdmin/employee/index.php');
+			require_once('viewsAdmin/customer/index.php');
 		}
 		public function insert()
 		{	
@@ -24,8 +24,8 @@
 				$data['addressEmp'] = $_REQUEST['addressEmp'];
 				$data['salaryEmp'] = $_REQUEST['salaryEmp'];
 				$data['statusEmp'] = $_REQUEST['statusEmp'];
-				$employeeModel = new Employee();
-				$responInsert = $employeeModel->insert($data);
+				$customerModel = new Customer();
+				$responInsert = $customerModel->insert($data);
 
 				if ($responInsert == 1)
 				{
@@ -47,12 +47,12 @@
 		{	
 			if(!is_numeric($_GET['id']))
 			{
-				require_once('viewsAdmin/employee/index.php');
+				require_once('viewsAdmin/customer/index.php');
 			}
 
 			$_SESSION['idEmployee'] = isset($_GET['id']) && $_GET['id'];
-			$employeeModel = new Employee();
-			$employee = $employeeModel->getEmployeeById($_SESSION['idEmployee']);
+			$customerModel = new Customer();
+			$employee = $customerModel->getCustomerById($_SESSION['idEmployee']);
 			if(isset($_POST['editRowButton']))
 			{
 				if ($_REQUEST['nameEmp'] != "" && $_REQUEST['phoneEmp'] != "" && $_REQUEST['CMTEmp'] != "" && $_REQUEST['emailEmp']!="" && $_REQUEST['addressEmp']!="" && $_REQUEST['salaryEmp'] !="" && $data['statusEmp'] != "")
@@ -65,11 +65,11 @@
 					$data['addressEmp'] = $_REQUEST['addressEmp'];
 					$data['salaryEmp'] = $_REQUEST['salaryEmp'];
 					$data['statusEmp'] = $_REQUEST['statusEmp'];
-					$responUpdate = $employeeModel->update($_SESSION['idEmployee'],$data);
+					$responUpdate = $customerModel->update($_SESSION['idEmployee'],$data);
 					if ($responUpdate == 1)
 					{
 						unset($_SESSION['idEmployee']);
-						header('location:index.php?controller=employee');
+						header('location:index.php?controller=customer');
 					}
 					else
 					{
@@ -81,7 +81,7 @@
 					$erro = "Mời bạn nhập đầy đủ dữ liệu";
 				}
 			}
-			require_once('viewsAdmin/employee/UpdateEmployee.php');
+			require_once('viewsAdmin/customer/UpdateCustomer.php');
 		}
 
 		public function delete()
@@ -89,10 +89,10 @@
 			$id = $_GET['id'];
 			if(!is_numeric($id))
 			{
-				require_once('viewsAdmin/employee/index.php');
+				require_once('viewsAdmin/customer/index.php');
 			}
-			$employeeModel = new Employee();
-			$responDelete = $employeeModel->delete($id);
+			$customerModel = new Customer();
+			$responDelete = $customerModel->delete($id);
 
 			if($responDelete == 1)
 			{

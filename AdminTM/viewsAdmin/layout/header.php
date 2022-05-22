@@ -30,7 +30,7 @@
 			<!-- Logo Header -->
 			<div class="logo-header" data-background-color="blue">
 				
-				<a href="../index.html" class="logo">
+				<a href="./index.php" class="logo">
 					<img src="assets/img/logo.svg" alt="logoTHIÊNMINH" class="navbar-brand">
 				</a>
 				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -404,13 +404,13 @@
 							</div>
 						</li>
 						<li class="nav-item navbar-customer">
-							<a data-toggle="collapse" href="./customer/TableCustomer.php">
+							<a href="./?controller=customer">
 								<i class="flaticon-users"></i>
 								<p>Khách hàng</p>
 							</a>
 						</li>
 						<li class="nav-item navbar-supplier">
-							<a data-toggle="collapse" href="./supplier/TableSupplier.php">
+							<a  href="./?controller=supplier">
 								<i class="flaticon-store"></i>
 								<p>Nhà cung cấp</p>
 							</a>
@@ -437,7 +437,7 @@
 							</div>
 						</li>
                         <li class="nav-item navbar-project">
-							<a href="../widgets.html">
+							<a href="./?controller=project">
 								<i class="fa fa-project-diagram"></i>
 								<p>Dự án</p>
 							</a>
