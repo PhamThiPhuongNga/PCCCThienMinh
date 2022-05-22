@@ -1,4 +1,5 @@
-<?php require_once("../templateAdmin/headerAdmin.php");?>
+<?php require_once("viewsAdmin/layout/header.php");?>
+
 <style>
 	.navbar-employee>a{
 		background: #1572e8!important;
@@ -14,7 +15,7 @@
 							<div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
-										<h4 class="card-title">Sửa nhân viên</h4>
+										<h4 class="card-title">Chi tiết nhân viên</h4>
 									</div>
 								</div>
 								<div class="card-body">
@@ -107,8 +108,8 @@
 													</form>
 												</div>
 												<div class="modal-footer no-bd">
-													<button type="button" id="editRowButton" name = "editRowButton" class="btn btn-primary">Cập nhật</button>
-													<button type="button" class="btn btn-danger" data-dismiss="modal"><a href="TableEmployee.php" class="btn-name text-white">Hủy</a></button>
+													
+													<button type="button" class="btn btn-danger" data-dismiss="modal"><a href="TableEmployee.php" class="btn-name text-white">Đóng</a></button>
 												</div>
 											</div>
 										</div>
@@ -119,4 +120,4 @@
 					</div>
 				</div>
 			</div>
-<?php require_once("../templateAdmin/footerAdmin.php");?>
+<?php require_once("viewsAdmin/layout/footer.php");?>
