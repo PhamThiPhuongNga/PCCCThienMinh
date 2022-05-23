@@ -34,10 +34,10 @@
 				<div class="card">
 					<div class="card-header">
 						<div class="d-flex align-items-center">
-							<h4 class="card-title">Danh sách khách hàng</h4>
+							<h4 class="card-title">Danh sách sản phẩm</h4>
 							<button class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addRowModal">
 								<i class="fa fa-plus"></i>
-								Thêm khách hàng
+								Thêm sản phẩm
 							</button>
 						</div>
 					</div>
@@ -59,8 +59,8 @@
 											<div class="row">
 												<div class="col-sm-12">
 													<div class="form-group form-group-default">
-														<label>Tên khách hàng</label>
-														<input id="nameCus" name="nameCus" type="text" class="form-control" >
+														<label>Tên sản phẩm</label>
+														<input id="namePro" name="namePro" type="text" class="form-control" >
 													</div>
 												</div>
 												<div class="col-sm-12">
