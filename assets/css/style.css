@@ -1846,6 +1846,7 @@
      font-weight: 600;
      padding-left: 30px;
      margin-bottom: 12px;
+     color: black;
  }
  
  .content_block_1 .content-box .list-item li:last-child {
@@ -4769,7 +4770,13 @@
      height: 40px;
      font-size: 15px;
  }
- 
+ .product{
+     border-bottom: 0.5px solid red;
+     text-transform: uppercase;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 30px;
+ }
  .product .title-product {
      background-color: red;
      width: 300px;
@@ -4786,12 +4793,9 @@
  .product .add-product a {
      font-size: 14px;
      color: red;
+     float:left;
  }
- 
- .product .add-product a {
-     font-size: 14px;
-     color: red;
- }
+
  
  .post-subtitle {
      display: flex;
@@ -4976,3 +4980,7 @@
      margin: 0;
  }
  /* end===tăng giảm số lượng*/
+
+.product-2 .media-body .product-2__name .title-mini:hover{
+    color: red;
+}

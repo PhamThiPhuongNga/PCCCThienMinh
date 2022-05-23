@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `duan`
 --
 
-CREATE DATABASE datathienminh;
+-- CREATE DATABASE datathienminh;
 
 
 CREATE TABLE `duan` (

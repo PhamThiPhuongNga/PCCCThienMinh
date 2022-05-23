@@ -1,12 +1,7 @@
 <?php require_once("viewsAdmin/layout/header.php");?>
 <style>
 	.navbar-project>a{
-		background: #1572e8!important;
-    	box-shadow: 4px 4px 10px 0 rgba(0,0,0,.1),4px 4px 15px -5px rgba(21,114,232,.4)!important;
-	}
-	.navbar-project>a p,.navbar-project>a i{
-		color: #fff;
-		font-weight: 700;
+		box-shadow: 4px 4px 10px 0 rgba(0,0,0,.2),4px 4px 15px -5px rgba(255,255,255,.6)!important;
 	}
 </style>
 					<div class="row">

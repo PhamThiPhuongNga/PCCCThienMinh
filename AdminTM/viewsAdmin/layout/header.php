@@ -288,7 +288,7 @@
 			
 			<div class="sidebar-wrapper scrollbar scrollbar-inner">
 				<div class="sidebar-content">
-					<div class="user">
+					<div class="user navbar-user">
 						<div class="avatar-sm float-left mr-2">
 							<img src="assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
 						</div>
@@ -352,33 +352,17 @@
 							<h4 class="text-section">DANH MỤC</h4>
 						</li>
 						<li class="nav-item navbar-employee">
-							<a data-toggle="collapse" href="#base">
+							<a  href="./?controller=employee">
 								<i class="flaticon-user-1"></i>
 								<p>Nhân viên</p>
-								<span class="caret"></span>
 							</a>
-							<div class="collapse" id="base">
-								<ul class="nav nav-collapse">
-									<li>
-										<a href="./?controller=employee">
-											<span class="sub-item">Danh sách nhân viên</span>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<span class="sub-item">Lương</span>
-										</a>
-									</li>
-								</ul>
-							</div>
 						</li>
 						<li class="nav-item navbar-product">
-							<a data-toggle="collapse" href="#sidebarLayouts">
+							<a href="./?controller=product">
 								<i class="fas fa-th-list"></i>
 								<p>Sản phẩm</p>
-								<span class="caret"></span>
 							</a>
-							<div class="collapse" id="sidebarLayouts">
+							<!-- <div class="collapse" id="sidebarLayouts">
 								<ul class="nav nav-collapse">
 									<li>
 										<a href="../sidebar-style-1.html">
@@ -401,7 +385,7 @@
 										</a>
 									</li>
 								</ul>
-							</div>
+							</div> -->
 						</li>
 						<li class="nav-item navbar-customer">
 							<a href="./?controller=customer">
