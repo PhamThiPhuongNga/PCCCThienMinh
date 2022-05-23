@@ -9,36 +9,40 @@
 			$employeeModel = new Employee();
 			$employee = $employeeModel->index();
 			// print_r($employee);
+
 			require_once('viewsAdmin/employee/index.php');
 		}
 		public function insert()
 		{	
-			if ($_REQUEST['nameEmp'] != "" && $_REQUEST['phoneEmp'] != "" && $_REQUEST['CMTEmp'] != "" && $_REQUEST['emailEmp']!="" && $_REQUEST['addressEmp']!="" && $_REQUEST['salaryEmp'] !="" && $data['statusEmp'] != "")
+			if ($_REQUEST['nameEmp'] != "" && $_REQUEST['phoneEmp'] != "" && $_REQUEST['CMTEmp'] != "" && $_REQUEST['emailEmp']!="" && $_REQUEST['addressEmp']!="" && $_REQUEST['salaryEmp'] !="" )
 			{
-
+				
 				$data['nameEmp'] = $_REQUEST['nameEmp'];
+				$data['avatarEmp'] = upload_file_by_name('avatarEmp','imgEmployee');
 				$data['phoneEmp']= $_REQUEST['phoneEmp'];
 				$data['CMTEmp']= $_REQUEST['CMTEmp'];
 				$data['emailEmp']= $_REQUEST['emailEmp'];
 				$data['sexEmp'] = $_REQUEST['sexEmp'];
 				$data['addressEmp'] = $_REQUEST['addressEmp'];
 				$data['salaryEmp'] = $_REQUEST['salaryEmp'];
-				$data['statusEmp'] = $_REQUEST['statusEmp'];
+				
 				$employeeModel = new Employee();
 				$responInsert = $employeeModel->insert($data);
 
 				if ($responInsert == 1)
 				{
-					index();
+					header('location:./index.php?controller=employee');
 				}
 				else
 				{
-					$erro = "Lỗi chưa thêm được nhân viên";
+					echo("Lỗi chưa thêm được nhân viên");
+					
 				}
 			}
 			else
 			{
-				$erro = "Bạn chưa nhập đầy đủ dữ liệu";
+				echo("Bạn chưa nhập đầy đủ dữ liệu");
+				
 			}
 			
 		}

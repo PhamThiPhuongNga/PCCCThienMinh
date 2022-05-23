@@ -72,15 +72,15 @@
 		error_log( date('d.m.Y h:i:s') . " $mess \n", 3, "log.log");
 	}
 	function data_to_sql_update($tbl,$data,$cond){
-	if (!$tbl || !$data) return "";
-	$fields = array();
-	$vals = array();
-	foreach ($data as $k=>$v){
-		$vals[] = "{$k}=n'" . sql_str($v) . "'";
-	}
-	$vals = implode(",",$vals);
-	if ($cond) $cond = " where {$cond}";
-	return "update {$tbl} set {$vals} {$cond}";
+		if (!$tbl || !$data) return "";
+		$fields = array();
+		$vals = array();
+		foreach ($data as $k=>$v){
+			$vals[] = "{$k}=n'" . sql_str($v) . "'";
+		}
+		$vals = implode(",",$vals);
+		if ($cond) $cond = " where {$cond}";
+		return "update {$tbl} set {$vals} {$cond}";
 	}
 	function data_to_sql_insert($tbl,$data){
 		if (!$tbl || !$data) return "";
@@ -124,6 +124,35 @@
 		//$ret = $res->affected_rows();
 		close();
 		return 1;
+	}
+	function upload_file_by_name($name,$path, $target_dir=""){
+		
+
+		if (!isset($_FILES[$name])){
+			
+			
+			return "";
+		}
+		if (!$target_dir){		
+			$target_dir = "assets/imgsAdmin/".$path."/";
+		}
+		
+		$fdata = $_FILES[$name];
+		
+		$ext = strtolower(pathinfo($fdata["name"],PATHINFO_EXTENSION));
+		$target_file = $target_dir . basename($fdata["name"],".{$ext}") . date('-Ymd-his') . ".{$ext}";
+		
+		
+		if (!is_dir($target_dir)){
+			
+			mkdir($target_dir);
+		}
+		if (move_uploaded_file($fdata["tmp_name"], $target_file)) {
+			
+			return $target_file;
+		}
+		return "";
+		
 	}
 
 ?>

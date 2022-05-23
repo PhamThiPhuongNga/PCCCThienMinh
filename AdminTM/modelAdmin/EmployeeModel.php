@@ -1,5 +1,7 @@
 <?php
-	require_once('util/lib_db.php');
+	include('util/lib_db.php');
+	
+
 	class Employee
 	{
 
@@ -12,7 +14,7 @@
 			return $dataEmployee;
 		}
 
-		public function insert()
+		public function insert($data)
 		{
 			
 			$querryInsert= data_to_sql_insert("nhanvien",$data);
