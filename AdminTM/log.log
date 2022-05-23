@@ -270,3 +270,6 @@
 23.05.2022 09:29:55 sql=[SELECT * from nhacungcap] 
 23.05.2022 09:29:57 sql=[SELECT * from sanpham] 
 23.05.2022 09:31:29 sql=[SELECT * from duan] 
+23.05.2022 05:22:13 sql=[SELECT * from nhanvien] 
+23.05.2022 05:22:45 sql=[SELECT * from khachhang] 
+23.05.2022 05:23:24 sql=[SELECT * from khachhang] 

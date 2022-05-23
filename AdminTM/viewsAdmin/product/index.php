@@ -68,6 +68,9 @@
 														<label for="exampleFormControlFile1">Logo</label>
 														<input  id="addImage" type="file" name="avatarEmp" class="form-control-file" >
 													</div>
+													<div>
+														<img src="" alt="" width="100" height="100">
+													</div>
 												</div>
 												<div class="col-sm-12">
 													<div class="form-group form-group-default">
