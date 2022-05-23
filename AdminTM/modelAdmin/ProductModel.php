@@ -7,7 +7,7 @@
 		public function index()
 		{
 			//return "ok";
-			$querrySelect = "SELECT * from sanpham";
+			$querrySelect = "SELECT * from sanpham where deleteStatus = 0";
 			$dataProduct = select_list($querrySelect);
 			return $dataProduct;
 		}

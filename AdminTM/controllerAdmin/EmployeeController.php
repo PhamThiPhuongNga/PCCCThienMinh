@@ -4,6 +4,7 @@
 	class EmployeeController{
 
 		public $erro;
+		public $page=0;
 		public function index()
 		{
 			$employeeModel = new Employee();
@@ -59,16 +60,17 @@
 			$employee = $employeeModel->getEmployeeById($_SESSION['idEmployee']);
 			if(isset($_POST['editRowButton']))
 			{
-				if ($_REQUEST['nameEmp'] != "" && $_REQUEST['phoneEmp'] != "" && $_REQUEST['CMTEmp'] != "" && $_REQUEST['emailEmp']!="" && $_REQUEST['addressEmp']!="" && $_REQUEST['salaryEmp'] !="" && $data['statusEmp'] != "")
+				if ($_REQUEST['nameEmp'] != "" && $_REQUEST['phoneEmp'] != "" && $_REQUEST['CMTEmp'] != "" && $_REQUEST['emailEmp']!="" && $_REQUEST['addressEmp']!="" && $_REQUEST['salaryEmp'] !="" )
 				{
 					$data['nameEmp'] = $_REQUEST['nameEmp'];
+					$data['avatarEmp'] = upload_file_by_name('avatarEmp','imgEmployee');
 					$data['phoneEmp']= $_REQUEST['phoneEmp'];
 					$data['CMTEmp']= $_REQUEST['CMTEmp'];
 					$data['emailEmp']= $_REQUEST['emailEmp'];
 					$data['sexEmp'] = $_REQUEST['sexEmp'];
 					$data['addressEmp'] = $_REQUEST['addressEmp'];
 					$data['salaryEmp'] = $_REQUEST['salaryEmp'];
-					$data['statusEmp'] = $_REQUEST['statusEmp'];
+
 					$responUpdate = $employeeModel->update($_SESSION['idEmployee'],$data);
 					if ($responUpdate == 1)
 					{
@@ -90,22 +92,32 @@
 
 		public function delete()
 		{
+
 			$id = $_GET['id'];
-			if(!is_numeric($id))
-			{
-				require_once('viewsAdmin/employee/index.php');
-			}
+
+
 			$employeeModel = new Employee();
 			$responDelete = $employeeModel->delete($id);
-
+			
 			if($responDelete == 1)
 			{
-				index();
+				header('location:index.php?controller=employee');
 			}
 			else
 			{
 				$erro = "Lỗi chưa xóa được";
 			}
+		}
+
+		public function detail(){
+
+			$id = isset($_GET['id']) && $_GET['id'];
+			// if(!is_numeric($id)){
+			// 	require_once('viewsAdmin/employee/index.php');
+			// }
+			$employeeModel = new Employee();
+			$employee = $employeeModel->getEmployeeById($id);
+			require_once('viewsAdmin/employee/DetailEmployee.php');
 		}
 
 	}

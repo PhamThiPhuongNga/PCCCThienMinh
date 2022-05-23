@@ -1,4 +1,4 @@
-<?php require_once("viewsAdmin/layout/header.php");?>
+<?php require_once("viewsAdmin/layout/header.php");?> 
 <style>
 	.navbar-product>a{
 		box-shadow: 4px 4px 10px 0 rgba(0,0,0,.2),4px 4px 15px -5px rgba(255,255,255,.6)!important;
@@ -160,27 +160,37 @@
 									</tr>
 								</tfoot>
 								<tbody>
+									<?php
+										foreach($product as $value )
+										{
+									?>
 									<tr>
-										<td>61</td>
-										<td>2011/04/25</td>
-										<td>$320,800</td>
-										<td>$320,800</td>
+										<td><?php echo($value['namePro']);?></td>
+										<td><img src="<?php echo($value['imagePro']);?>" alt="123" width="50" height="50"/></td>
+										<td><?php echo($value['categoryPro']);?></td>
+										<td><?php echo($value['systemPro']);?></td>
 										<td>
 											<div class="form-button-action">
 												<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Detail Task">
-													<a href="DetailCustomer.php" class=""><i class="flaticon-file"></i></a>
+													<a href="./?controller=&action=detail&id=<?php echo($value['idPro']);?>" class=""><i class="flaticon-file"></i></a>
 											
 												</button>
 												<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-													<a href="UpdateCustomer.php" class=""><i class="fa fa-edit"></i></a>
+													<a href="./?controller=product&action=update&id=<?php echo($value['idPro']);?>" class=""><i class="fa fa-edit"></i></a>
 											
 												</button>
-												<button type="button" name ="deleteRowCus"data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove">
-													<i class="fa fa-times"></i>
-												</button>
+												<form id="form<?php echo($value['idPro']);?>" method="post" action="./?controller=product&action=delete&id=<?php echo($value['idPro']);?>" >
+													
+													<button type="button" name ="deleteRowEmp"data-toggle="tooltip" title="" onclick="handlerDelete(<?php echo($value['idPro']);?>)"  class="btn btn-link btn-danger" data-original-title="Remove">
+														<i class="fa fa-times"></i>
+													</button>
+												</form>
 											</div>
 										</td>
 									</tr>
+									<?php
+									}
+									?>
 								</tbody>
 							</table>
 						</div>
@@ -190,4 +200,28 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	function handlerShowImage()
+	{
+		const fileSeleted = document.getElementById("addImage").files;
+		if(fileSeleted.length > 0){
+			const fileToload = fileSeleted[0];
+			const fileReader = new FileReader();
+			fileReader.onload = function(fileLoaderEvent){
+				const srcdata = fileLoaderEvent.target.result;
+				const newImg = document.getElementById("anhEmployee");
+				newImg.src = srcdata;
+			}
+			fileReader.readAsDataURL(fileToload);
+		}
+	}
+	function handlerDelete(id)
+	{
+		if(confirm("bạn có muốn xóa") == true)
+    	{	
+    		$('#form'+id).submit();
+    	}
+	    	
+	}
+</script>
 <?php require_once("viewsAdmin/layout/footer.php");?>

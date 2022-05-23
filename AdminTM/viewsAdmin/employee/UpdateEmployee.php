@@ -18,7 +18,7 @@
 							<div class="d-block"  role="dialog" aria-hidden="fase" >
 								<div class="modal-dialog" role="document">
 									<div class="modal-content">
-										<form method="post" >
+										<form method="post" enctype="multipart/form-data">
 											<div class="modal-body ">
 												<div class="row">
                                                     <div class="col-sm-12">
@@ -36,10 +36,10 @@
 													<div class="col-sm-12">
 														<div class="form-group form-group-default">
 															<label for="exampleFormControlFile1">Ảnh nhân viên</label>
-															<input  id="addImage" type="file" name="avatarEmp" class="form-control-file" >
+															<input  id="addImage" type="file" name="avatarEmp" onchange="handlerShowImage()" class="form-control-file" >
 														</div>
 														<div>
-															<img src="" alt="" width="100" height="100">
+															<img src="<?php echo($employee['avatarEmp']);?>" alt="" id="anhEmployee"  width="100" height="100">
 														</div>
 													</div>
 													<div class="col-md-6 pr-0">
@@ -125,4 +125,20 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		function handlerShowImage()
+	{
+		const fileSeleted = document.getElementById("addImage").files;
+		if(fileSeleted.length > 0){
+			const fileToload = fileSeleted[0];
+			const fileReader = new FileReader();
+			fileReader.onload = function(fileLoaderEvent){
+				const srcdata = fileLoaderEvent.target.result;
+				const newImg = document.getElementById("anhEmployee");
+				newImg.src = srcdata;
+			}
+			fileReader.readAsDataURL(fileToload);
+		}
+	}
+	</script>
 <?php require_once("viewsAdmin/layout/footer.php");?>

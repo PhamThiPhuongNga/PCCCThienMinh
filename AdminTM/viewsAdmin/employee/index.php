@@ -177,22 +177,25 @@
 									?>
 									<tr>
 										<td><?php echo($value['nameEmp']);?></td>
-										<td><?php echo($value['avatarEmp']);?></td>
+										<td><img src="<?php echo($value['avatarEmp']);?>" alt="123" width="50" height="50"/></td>
 										<td><?php echo($value['phoneEmp']);?></td>
 										<td><?php echo($value['emailEmp']);?></td>
 										<td>
 											<div class="form-button-action">
 												<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Detail Task">
-													<a href="DetailEmployee.php" class=""><i class="flaticon-file"></i></a>
+													<a href="./?controller=employee&action=detail&id=<?php echo($value['idEmp']);?>" class=""><i class="flaticon-file"></i></a>
 											
 												</button>
 												<button type="button" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
 													<a href="./?controller=employee&action=update&id=<?php echo($value['idEmp']);?>" class=""><i class="fa fa-edit"></i></a>
 											
 												</button>
-												<button type="button" name ="deleteRowEmp"data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove">
-													<i class="fa fa-times"></i>
-												</button>
+												<form id="form<?php echo($value['idEmp']);?>" method="post" action="./?controller=employee&action=delete&id=<?php echo($value['idEmp']);?>" >
+													
+													<button type="button" name ="deleteRowEmp"data-toggle="tooltip" title="" onclick="handlerDelete(<?php echo($value['idEmp']);?>)"  class="btn btn-link btn-danger" data-original-title="Remove">
+														<i class="fa fa-times"></i>
+													</button>
+												</form>
 											</div>
 										</td>
 									</tr>
@@ -223,5 +226,14 @@
 			fileReader.readAsDataURL(fileToload);
 		}
 	}
+	function handlerDelete(id)
+	{
+		if(confirm("bạn có muốn xóa") == true)
+    	{	
+    		$('#form'+id).submit();
+    	}
+	    	
+	}
+	
 </script>
 <?php require_once("viewsAdmin/layout/footer.php");?>

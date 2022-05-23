@@ -9,7 +9,7 @@
 		public function index()
 		{
 			//return "ok";
-			$querrySelect = "SELECT * from nhanvien";
+			$querrySelect = "SELECT * from nhanvien where deleteStatus = 0";
 			$dataEmployee = select_list($querrySelect);
 			return $dataEmployee;
 		}

@@ -23,13 +23,13 @@
                                                             <div class="col-sm-12">
 																<div class="form-group form-group-default">
 																	<label>ID</label>
-																	<input id="idEmp" readonly name="idEmp" type="text" class="form-control" >
+																	<input id="idEmp" readonly name="idEmp" type="text" class="form-control" value="<?php echo($employee['idEmp']); ?>" >
 																</div>
 															</div>
 															<div class="col-sm-12">
 																<div class="form-group form-group-default">
 																	<label>Tên nhân viên</label>
-																	<input id="nameEmp" name="nameEmp" type="text" class="form-control" >
+																	<input id="nameEmp" name="nameEmp" type="text" class="form-control" value="<?php echo($employee['nameEmp']); ?>">
 																</div>
 															</div>
 															<div class="col-sm-12">
@@ -38,33 +38,45 @@
 																	<input  id="addImage" type="file" name="avatarEmp" class="form-control-file" >
 																</div>
 																<div>
-																	<img src="" alt="" width="100" height="100">
+																	<img src="<?php echo($employee['avatarEmp']); ?>" alt="" width="100" height="100">
 																</div>
 															</div>
 															<div class="col-md-6 pr-0">
 																<div class="form-group form-group-default">
 																	<label>Số điện thoại</label>
-																	<input id="phoneEmp" name ="phoneEmp" type="text" class="form-control" >
+																	<input id="phoneEmp" name ="phoneEmp" type="text" class="form-control" value="<?php echo($employee['phoneEmp']); ?>">
 																</div>
 															</div>
 															<div class="col-md-6">
 																<div class="form-group form-group-default">
 																	<label>Email</label>
-																	<input id="emailEmp" name ="emailEmp" type="email" class="form-control" >
+																	<input id="emailEmp" name ="emailEmp" type="email" class="form-control" value="<?php echo($employee['emailEmp']); ?>">
 																</div>
 															</div>
 															<div class="col-md-6 pr-0">
 																<div class="form-group form-group-default">
 																	<label>Số CMT</label>
-																	<input id="CMTEmp" name="CMTEmp" type="text" class="form-control" >
+																	<input id="CMTEmp" name="CMTEmp" type="text" class="form-control" value="<?php echo($employee['CMTEmp']); ?>">
 																</div>
 															</div>
 															<div class="col-md-6">
 																<div class="form-group form-group-default">
 																	<label>Giới tính 
 																		<select name="sexEmp" id="sexEmp" aria-controls="basic-datatables" class="form-control form-control-sm">
-																			<option value="Nữ">Nữ</option>
-																			<option value="Nam">Nam</option>
+																			<?php 
+																				if($employee['sexEmp'] == 'Nữ')
+																				{ 
+																					?> 
+																					<option value="Nữ">Nữ</option>
+																					<option value="Nam">Nam</option>
+																					<?php }
+																				else
+																				{
+																				 	?>
+																					<option value="Nam">Nam</option>
+																					<option value="Nữ">Nữ</option>
+																					<?php
+																				}?>
 																		</select>
 																	</label>
 																</div>
@@ -93,13 +105,13 @@
 															<div class="col-md-6">
 																<div class="form-group form-group-default">
 																	<label>Lương</label>
-																	<input id="salaryEmp" name="salaryEmp" type="text" class="form-control" >
+																	<input id="salaryEmp" name="salaryEmp" type="text" class="form-control" value="<?php echo($employee['salaryEmp']); ?>">
 																</div>
 															</div>
 															<div class="col-sm-12">
 																<div class="form-group form-group-default">
 																	<label>Địa chỉ</label>
-																	<input id="addressEmp" name="addressEmp" type="text" class="form-control" >
+																	<input id="addressEmp" name="addressEmp" type="text" class="form-control" value="<?php echo($employee['addressEmp']); ?>">
 																</div>
 															</div>
 														</div>
@@ -107,7 +119,7 @@
 												</div>
 												<div class="modal-footer no-bd">
 													
-													<button type="button" class="btn btn-danger" data-dismiss="modal"><a href="TableEmployee.php" class="btn-name text-white">Đóng</a></button>
+													<button type="button" class="btn btn-danger" data-dismiss="modal"><a href="./?controller=employee" class="btn-name text-white">Đóng</a></button>
 												</div>
 											</div>
 										</div>

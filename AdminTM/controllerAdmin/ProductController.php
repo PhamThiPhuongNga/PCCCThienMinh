@@ -6,8 +6,8 @@
 		public $erro;
 
 		public function index(){
-			$supplierModel = new Product();
-			$Supplier = $supplierModel->index();
+			$productModel = new Product();
+			$product = $productModel->index();
 			// print_r($Supplier);
 			require_once('viewsAdmin/product/index.php');
 		}
