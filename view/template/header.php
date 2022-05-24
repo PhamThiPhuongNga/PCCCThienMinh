@@ -112,7 +112,7 @@
                     <div class="outer-box clearfix">
                         <div class=" pull-left" style="position: relative;margin-right: 90px;">
                             <figure class="logo">
-                                <a href="index.html"><img src="../../assets/images/LOGOTM.png" alt="" width="70px" height="100px"></a>
+                                <a href="../.././index.php"><img src="../../assets/images/LOGOTM.png" alt="" width="70px" height="100px"></a>
                             </figure>
                         </div>
                         <div class="menu-area pull-left">
@@ -126,15 +126,15 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
                                         <li class="current dropdown"><a href="../.././index.php"><i class="fa fa-house"></i></a></li>
-                                        <li class="dropdown"><a href="introduce.php">GIỚI THIỆU</a>
+                                        <li class="dropdown"><a href="../introduce/introduce.php">GIỚI THIỆU</a>
                                             <ul>
-                                                <li><a href="introduce.php">Giới thiệu công ty</a></li>
-                                                <li><a href="visionMission.php">Tầm nhìn sứ mệnh</a></li>
-                                                <li><a href="strategyIntro.php">Chiến lược phát triển</a></li>
-                                                <li><a href="companyFace.php">Hình ảnh công ty</a></li>
+                                                <li><a href="../introduce/introduce.php">Giới thiệu công ty</a></li>
+                                                <li><a href="../introduce/visionMission.php">Tầm nhìn sứ mệnh</a></li>
+                                                <li><a href="../introduce/strategyIntro.php">Chiến lược phát triển</a></li>
+                                                <li><a href="../introduce/companyFace.php">Hình ảnh công ty</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="product.php">SẢN PHẨM</a>
+                                        <li class="dropdown"><a href="../product/product.php">SẢN PHẨM</a>
                                             <ul>
                                                 <li><a href="index.html">Hệ thống báo cháy</a></li>
                                                 <li><a href="index-2.html">Hệ thống chữa cháy</a></li>
@@ -142,14 +142,14 @@
                                                 <li><a href="index-onepage.html">Hệ thống đèn Exit sự cố</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="project.php">DỰ ÁN</a>
+                                        <li class="dropdown"><a href="../project/project.php">DỰ ÁN</a>
                                         </li>
-                                        <li class="dropdown"><a href="news.php">TIN TỨC</a>
+                                        <li class="dropdown"><a href="../news/news.php">TIN TỨC</a>
                                             <ul>
                                                 <li><a href="blog.html">Tuyển dụng</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="contact.php">LIÊN HỆ</a></li>
+                                        <li class="dropdown"><a href="../contact/contact.php">LIÊN HỆ</a></li>
                                         <li class="dropdown"><i class="fa fa-search "></i>
                                             <ul>
                                                 <li>

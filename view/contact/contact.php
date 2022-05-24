@@ -1,4 +1,4 @@
-<?php require_once ("../view/template/header.php")?>
+<?php require_once ("../../view/template/header.php")?>
 
 
         <!--Page Title-->
@@ -108,4 +108,4 @@
         <!-- cta-section end -->
 
 
-<?php require_once ("../view/template/footer.php")?>
+<?php require_once ("../../view/template/footer.php")?>

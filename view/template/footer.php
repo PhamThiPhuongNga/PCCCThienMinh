@@ -54,9 +54,9 @@
                                     </div>
                                     <div class="widget-content">
                                         <ul class="links-list clearfix">
-                                            <li><a href="index.html">Chính sách mua hàng</a></li>
-                                            <li><a href="index.html">Chính sách đổi trả và hoàn tiền</a></li>
-                                            <li><a href="index.html">Chính sách bảo hành</a></li>
+                                            <li><a href="../policies/purchase-policy.php">Chính sách mua hàng</a></li>
+                                            <li><a href="../policies/return-refund-policy.php">Chính sách đổi trả và hoàn tiền</a></li>
+                                            <li><a href="../policies/warranty-policy.php">Chính sách bảo hành</a></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -32,10 +32,10 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="categori-list clearfix">
-                                        <li><a href="service-details.html" class="active">Chính sách mua hàng</a></li>
-                                        <li><a href="service-details-2.html">Chính sách đổi trả và hoàn tiền</a></li>
-                                        <li><a href="service-details-3.html">Chính sách bảo hành</a></li>
-                                        <li><a href="contact.php">LIÊN HỆ</a></li>
+                                        <li><a href="purchase-policy.php" class="active">Chính sách mua hàng</a></li>
+                                        <li><a href="return-refund-policy.php">Chính sách đổi trả và hoàn tiền</a></li>
+                                        <li><a href="warranty-policy.php">Chính sách bảo hành</a></li>
+                                        <li><a href="../contact/contact.php">LIÊN HỆ</a></li>
                                     </ul>
                                 </div>
                             </div>

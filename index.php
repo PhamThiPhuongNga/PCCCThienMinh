@@ -302,10 +302,10 @@
                                     <span><strong>PCCC THIÊN MINH</strong> hoạt động trong lĩnh vực kinh doanh thương mại các phương tiện, thiết bị, vật tư PCCC, tư vấn thiết kế, tư vấn giám sát về PCCC và thi công lắp đặt hệ thống PCCC.</span>
                                 </div>
                                 <div class="text ">
-                                    <p class="text-about">TẠI SAO BẠN NÊN CHỌN PCCC THIÊN MINH ?</p>
+                                    <p class="text-about mb-2">TẠI SAO BẠN NÊN CHỌN PCCC THIÊN MINH ?</p>
                                     <span>Mục tiêu hàng đầu của <strong>PCCC THIÊN MINH</strong> là luôn nghiên cứu khả năng ứng dụng của các thiết bị trong quá trình tư vấn thiết kế, thi công các hạng mục Phòng cháy và chữa cháy 
                                         nhằm đưa công trình vào hoạt động an toàn và hiệu quả nhất. Với ngũ quản lý cán bộ tốt: kỹ sư có năng lực chuyên môn cao, nhân viên kinh doanh giỏi. Đồng thời chúng tôi luôn chú trọng khâu đào tạo để có một đội ngũ chuyên viên kỹ thuật cao, chuyên nghiệp.
-                                    Với mong muốn đáp ứng tốt các yêu cầu của quý khách hàng. Chúng tôi muốn phục vụ với tất cả năng lực và uy tín của mình để đảm bảo hoàn thành tốt mọi yêu cầu về chất lượng tiến độ cũng như kỹ thuật với hiệu quả cao nhất.</span>
+                                    Với mong muốn đáp ứng tốt các yêu cầu của quý khách hàng <strong>PCCC THIÊN MINH</strong> muốn phục vụ với tất cả năng lực và uy tín của mình để đảm bảo hoàn thành tốt mọi yêu cầu về chất lượng tiến độ cũng như kỹ thuật với hiệu quả cao nhất.</span>
                                     </br><span><strong>PCCC THIÊN MINH</strong> với nhiều năm kinh nghiệm chúng tôi cam kết mang lại thành công cho dự án của bạn.</span>
                                 </div>
                                 <ul class="list-item clearfix">
@@ -313,11 +313,6 @@
                                     <li>Chi phí hợp lý - Hiệu quả vượt mong đợi</li>
                                     <li>Coi tín nhiệm của khách hàng là mục đích hoạt động</li>
                                 </ul>
-                                <div class="support-box">
-                                    <i class="flaticon-call"></i>
-                                    <p>HOTLINE</p>
-                                    <h4><a href="tel:0334972038">0334.472.038</a></h4>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -364,7 +359,7 @@
                                     <div class="inner">
                                         <h3><a href="service-details.html">TƯ VẤN, THIẾT KẾ HỆ THỐNG PCCC</a></h3>
                                         <p>PCCC THIÊN MINH tư vấn, lựa chọn giải pháp tối ưu nhất: HIỆU QUẢ - AN TOÀN - TIẾT KIỆM cho chủ đầu tư dựa vào tiêu chuẩn chuyên ngành và quy định pháp luật.</p>
-                                        <div class="link"><a href="service-detail.php">Xem</a></div>
+                                        <div class="link"><a href="view/service/service-detail-2.php">Xem</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -381,7 +376,7 @@
                                     <div class="inner">
                                         <h3><a href="service-details.html">THI CÔNG LẮP ĐẶT HỆ THỐNG PCCC</a></h3>
                                         <p>PCCC THIÊN MINH thi công, lắp đặt hệ thống PCCC cho dự án với tiêu chí: TIẾN ĐỘ - AN TOÀN </p>
-                                        <div class="link"><a href="service-details.html">Xem</a></div>
+                                        <div class="link"><a href="view/service/service-detail-3.php">Xem</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -715,8 +710,8 @@
                             <h4 class="pull"><i class="fa fa-comment-alt-dollar mr-2"></i>GIÁ CẢ HỢP LÝ</h4>
                         </div>
                         <div class="col-lg-4 col-md-12 col-sm-12 pull centred">
-                            <h4 class="pull">HỖ TRỢ TƯ VẤN 24/7</h4>
-                            <span><a class="pull" href="tel:0033972038">0033.972.038</a></span>
+                            <h4 class="pull">HỖ TRỢ TƯ VẤN 24/7 </h4>
+                            <span><a class="pull" href="tel:0942874647">0942.874.647</a></span>
                         </div>
                     </div>
                 </div>
@@ -769,6 +764,20 @@
                             </figure>
                             <div class="author-info">
                                 <h4>Kevin Martin</h4>
+                                <span class="designation">Our Citizen</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+                                <a href="" class="">
+                                    <img src="assets/images/gallery/ktxthuyloi.jpg" alt="" height="370" width="470">
+                                </a>
+                            </figure>
+                            <div class="author-info">
+                                <h4>Jessica Brown</h4>
                                 <span class="designation">Our Citizen</span>
                             </div>
                         </div>

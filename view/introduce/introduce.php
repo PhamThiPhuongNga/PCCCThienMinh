@@ -67,7 +67,7 @@
                                             <li>Chúng tôi cam kết cung cấp cho khách hàng sản phẩm dịch vụ và sản phẩm tốt nhất, phù hợp nhất và với chi phí tiết kiệm nhất đẩm bảo sự hài lòng 100% của Quý khách hàng và Quý đôi tác.</li>
                                             <li>Bằng sự tận tuỵ và tinh thần học hỏi không ngừng học hỏi, <strong>PCCC THIÊN MINH</strong>hy vọng tiếp tục gắn bó và trở thành người bạn đáng tin cậy nhất, luông đồng hành cùng sự phát triển bền vững của Quý
                                                 khách hàng và Quý đối tác.</li>
-                                            <li style="color: red;">GIAO HÀNG TẬN NƠI TRÊN TOÀN QUỐC- HỖ TRỢ TƯ VẤN VÀ BÁN HÀNG 24/24H. GỌI NGAY 0334972038 (ZALO/CALL)</li>
+                                            <li class="mt-3" style="color: red;">GIAO HÀNG TẬN NƠI TRÊN TOÀN QUỐC- HỖ TRỢ TƯ VẤN VÀ BÁN HÀNG 24/24H. GỌI NGAY <strong style="font-size:20px;">0942.874.647</strong> (ZALO/CALL)</li>
                                         </ul>
                                     </div>
                                 </div>
