@@ -1,4 +1,4 @@
-<?php require_once ("../view/template/header.php")?>
+<?php require_once ("../../view/template/header.php")?>
 
         <!--Page Title-->
         <section class="page-title centred" style="background-image: url(../assets/images/background/page-title.jpg);">
@@ -58,4 +58,4 @@
                 </div>
             </div>
         </section>
-<?php require_once("../view/template/footer.php") ?>
+<?php require_once("../../view/template/footer.php") ?>

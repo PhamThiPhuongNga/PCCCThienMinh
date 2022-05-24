@@ -4989,3 +4989,6 @@
     font-weight: 700;
     margin-bottom: 0;
 }
+.content-side .related-articles .related-articles-body .no-bullets>li>a:hover{
+    color:red;
+}

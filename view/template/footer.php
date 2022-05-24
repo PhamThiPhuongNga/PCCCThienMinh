@@ -27,7 +27,7 @@
 
         <!-- main-footer -->
         <footer class="main-footer" style="background-image: url(assets/images/background/footer-bg-1.jpg);">
-            <figure class="footer-logo"><img src="../assets/images/LOGOTM.png" alt="" width="80px" height="100px"></figure>
+            <figure class="footer-logo"><img src="../../assets/images/LOGOTM.png" alt="" width="80px" height="100px"></figure>
             <div class="footer-top">
                 <div class="auto-container">
                     <div class="widget-section">
@@ -117,17 +117,17 @@
 
     <!-- jequery plugins -->
     <!-- <script src="../assets/js/jquery.js"></script> -->
-    <script src="../assets/js/popper.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/owl.js"></script>
-    <script src="../assets/js/wow.js"></script>
-    <script src="../assets/js/validation.js"></script>
-    <script src="../assets/js/jquery.fancybox.js"></script>
-    <script src="../assets/js/appear.js"></script>
-    <script src="../assets/js/jquery.countTo.js"></script>
+    <script src="../../assets/js/popper.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/owl.js"></script>
+    <script src="../../assets/js/wow.js"></script>
+    <script src="../../assets/js/validation.js"></script>
+    <script src="../../assets/js/jquery.fancybox.js"></script>
+    <script src="../../assets/js/appear.js"></script>
+    <script src="../../assets/js/jquery.countTo.js"></script>
 
     <!-- main-js -->
-    <script src="../assets/js/script.js"></script>
+    <script src="../../assets/js/script.js"></script>
 
 </body>
 <!-- End of .page_wrapper -->

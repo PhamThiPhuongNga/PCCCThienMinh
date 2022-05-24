@@ -1,4 +1,4 @@
-<?php require_once ("../view/template/header.php")?>
+<?php require_once ("../../view/template/header.php")?>
 
 <!--Page Title-->
 <section class="page-title centred" style="background-image: url(../assets/images/background/page-title.jpg);">
@@ -26,7 +26,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 content-side">
                 <div class="service-details-content">
                     <div class="inner-box">
-                        <figure class="image-box"><img src="assets/images/service/service-9.jpg" alt=""></figure>
+                        <figure class="image-box"><img src="./assets/images/service/service-9.jpg" alt=""></figure>
                         <div class="text">
                             <h2>GIỚI THIỆU CÔNG TY</h2>
                             <p style="font-style:italic; color: red;">Kính gửi quý khách hàng và đối tác </p>
@@ -36,7 +36,7 @@
                                         Với các thành viên giàu kinh nghiệm và uy tín đã có nhiều năm gắn bó với nghề, hiểu biết kỹ thuật chuyên sâu, nắm vững chuyên môn nghiệp vụ. 
                                     </span></br>
                             <div class="centred mt-4">
-                                <img src="../assets/images/LOGOTM.png" alt="" width="100px" height="130px">
+                                <img src="../../assets/images/LOGOTM.png" alt="" width="100px" height="130px">
                                 </br><span style="font-size: 13px;">Logo Công ty TNHH Phòng cháy chữa cháy Thiên Minh</span>
                             </div>
 
@@ -54,7 +54,7 @@
                         <div class="two-column">
                             <div class="row clearfix">
                                 <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                    <figure class="image-box"><img src="../assets/images/resource/image.png" alt=""></figure>
+                                    <figure class="image-box"><img src="../../assets/images/resource/image.png" alt=""></figure>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                     <div class="text">
@@ -100,4 +100,4 @@
 </section>
 <!-- cta-section end -->
 
-<?php require_once("../view/template/footer.php") ?>
+<?php require_once("../../view/template/footer.php") ?>

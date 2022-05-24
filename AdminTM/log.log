@@ -511,3 +511,7 @@
 24.05.2022 01:27:51 sql=[SELECT * from nhanvien where deleteStatus = 0] 
 24.05.2022 01:27:53 sql=[SELECT * from sanpham] 
 24.05.2022 01:36:35 sql=[SELECT * from sanpham where deleteStatus = 0] 
+24.05.2022 04:23:23 sql=[SELECT * from nhanvien where deleteStatus = 0] 
+24.05.2022 04:23:33 sql=[SELECT * from sanpham where deleteStatus = 0] 
+24.05.2022 04:25:05 sql=[SELECT * from sanpham where deleteStatus = 0] 
+24.05.2022 04:25:12 sql=[SELECT * from nhanvien where deleteStatus = 0] 
