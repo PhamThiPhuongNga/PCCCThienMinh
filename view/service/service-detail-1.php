@@ -80,7 +80,7 @@
                             </div> -->
                             <div class="service-details-content">
                                 <div class="inner-box">
-                                    <div class="product"><h4>CUNG CẤP PHƯƠNG TIỆN, THIẾT BỊ, VẬT TƯ PCCC</h4></div>
+                                    <div class="fw-bold fs-5 text-uppercase"><h4>CUNG CẤP PHƯƠNG TIỆN, THIẾT BỊ, VẬT TƯ PCCC</h4></div>
                                     <div class="post-info">
                                         <div class=""><i class="fa fa-calendar mr-2"></i>Admin - 23/05/2022</div>
                                         <div class="ml-5" style="float:right;">
@@ -95,7 +95,14 @@
                                 <div class="auto-container">
                                     <div class="row clearfix" style="font-size:15px;">
                                        <p><strong> PCCC THIÊN MINH cung cấp các phương tiện, thiết bị, vật tư cho các công trình, công ty không ngừng nghiên cứu giải pháp nâng cao chất lượng sản phẩm : UY TÍN - CHẤT LƯỢNG - TIẾT KIỆM.</strong></p>
-                                        
+                                       <ul>
+                                            <li>- Tiết kiệm tối đa không gian cho công trình.</li>
+                                            <li>- Tiến độ công trình tối ưu.</li>
+                                            <li>- An toàn cho người và tài sản khi chữa cháy.</li>
+                                            <li>- Tối đa hoá hiệu quă trong phòng cháy chữa cháy.</li>
+                                            <li>- Đáp ứng đầy đủ tiêu chuẩn TCVN, NFPA, ISO</li>
+                                            <li>- Giảm cho phí cho chủ đầu tư Với đội ngũ thiết kế có bề dày kinh nghiệm lâu năm trong lĩnh vực phòng cháy chữa cháy kết hợp phần mềm tính toán đáp ứng TCVN và Quốc tế. Có thể nói rằng <strong>PCCC THIÊN MINH</strong> đã và đang mang lại sự tin cậy cho khách hàng.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </section>
@@ -103,28 +110,15 @@
                                 <div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop" data-href="https://isafe.com.vn/blogs/dich-vu/dich-vu-thiet-ke-he-thong-chua-chay-bang-khi" data-width="100%" data-numposts="5" style="width: 100%;" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=848&amp;height=100&amp;href=https%3A%2F%2Fisafe.com.vn%2Fblogs%2Fdich-vu%2Fdich-vu-thiet-ke-he-thong-chua-chay-bang-khi&amp;locale=vi_VN&amp;numposts=5&amp;sdk=joey&amp;version=v2.11&amp;width="><span style="vertical-align: bottom; width: 100%; height: 287px;"><iframe name="fb850c2489894" width="1000px" height="100px" data-testid="fb:comments Facebook Social Plugin" title="fb:comments Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.11/plugins/comments.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df4d23e8d70dc58%26domain%3Disafe.com.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fisafe.com.vn%252Ff37681c934a782%26relation%3Dparent.parent&amp;container_width=848&amp;height=100&amp;href=https%3A%2F%2Fisafe.com.vn%2Fblogs%2Fdich-vu%2Fdich-vu-thiet-ke-he-thong-chua-chay-bang-khi&amp;locale=vi_VN&amp;numposts=5&amp;sdk=joey&amp;version=v2.11&amp;width=" style="border: none; visibility: visible; width: 100%; height: 287px;" class=""></iframe></span></div>
                             </div>
                             <div class="related-articles">
-                                <div class="related-articles-head">
-                                    <h3>
-                                        Các bài viết liên quan
-                                    </h3>
-                                </div>
-                                <div class="related-articles-body">
+                                <div class=" fw-bold text-uppercase"><h4>CÁC BÀI VIẾT LIÊN QUAN</h4></div>
+                                <div class="related-articles-body ">
                                     <ul class="no-bullets">
-                                        
-                                        
                                         <li>
-                                            <a href="/blogs/dich-vu/dich-vu-nap-lai-sau-xa">DỊCH VỤ NẠP LẠI SAU XẢ</a>
+                                            <a href="./service-detail-2.php" style="color:red;">Dịch vụ Cung cấp phương tiện, thiết bị, vật tư PCCC</a>
                                         </li>
-                                        
-                                        
-                                        
                                         <li>
-                                            <a href="/blogs/dich-vu/dich-vu-bao-tri-bao-duong-he-thong-chua-chay-bang-khi">DỊCH VỤ BẢO TRÌ BẢO DƯỠNG HỆ THỐNG CHỮA CHÁY BẰNG KHÍ</a>
-                                        </li>
-                                        
-                                        
-                                        
-                                        
+                                            <a href="./service-detail-3.php"style="color:red;">Dịch vụ thi công, lắp đặt hệ thống PCCC</a>
+                                        </li>   
                                     </ul>
                                 </div>
                             </div>

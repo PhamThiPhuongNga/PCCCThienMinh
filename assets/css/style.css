@@ -4772,6 +4772,7 @@
  }
  .product{
      border-bottom: 0.5px solid red;
+     background-color: rgb(255, 239, 239);
      text-transform: uppercase;
      display: flex;
      justify-content: space-between;

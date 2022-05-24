@@ -77,7 +77,7 @@
                         <div>
                             <div class="service-details-content">
                                 <div class="inner-box">
-                                    <div class="fw-bold fs-5"><h4>TƯ VẤN, THIẾT KẾ HỆ THỐNG PCCC</h4></div>
+                                    <div class="fw-bold fs-5 text-uppercase"><h4>THI CÔNG, LẮP ĐẶT HỆ THỐNG PCCC</h4></div>
                                     <div class="post-info">
                                         <div class=""><i class="fa fa-calendar mr-2"></i>Admin - 23/05/2022</div>
                                         <div class="ml-5" style="float:right;">
@@ -91,9 +91,10 @@
                                 
                                 <div class="auto-container">
                                     <div class="row clearfix" style="font-size:15px;">
-                                        <p><strong>PCCC THIÊN MINH tư vấn, lựa chọn giải pháp tối ưu nhất: HIỆU QUẢ - AN TOÀN - TIẾT KIỆM cho chủ đầu tư dựa vào tiêu chuẩn chuyên ngành và quy định pháp luật.</strong></p>
+                                        <p><strong>PCCC THIÊN MINH thi công, lắp đặt hệ thống PCCC cho dự án với tiêu chí: TIẾN ĐỘ - AN TOÀN. Trong thời gian qua, PCCC THIÊN MINH đã thi công nhiều công trình trong các lĩnh vực hoạt động với chất lượng cao mang tính chuyên nghiệp</strong></p>
                                         <ul>
                                             <li>- Tiết kiệm tối đa không gian cho công trình.</li>
+                                            <li>- Tiến độ công trình tối ưu.</li>
                                             <li>- An toàn cho người và tài sản khi chữa cháy.</li>
                                             <li>- Tối đa hoá hiệu quă trong phòng cháy chữa cháy.</li>
                                             <li>- Đáp ứng đầy đủ tiêu chuẩn TCVN, NFPA, ISO</li>
@@ -113,7 +114,7 @@
                                             <a href="./service-detail-1.php" style="color:red;">Dịch vụ Cung cấp phương tiện, thiết bị, vật tư PCCC</a>
                                         </li>
                                         <li>
-                                            <a href="./service-detail-3.php"style="color:red;">Dịch vụ Thi công, lắp đặt hệ thống PCCC</a>
+                                            <a href="./service-detail-2.php"style="color:red;">Thi công, lắp đặt hệ thống PCCC</a>
                                         </li>   
                                     </ul>
                                 </div>

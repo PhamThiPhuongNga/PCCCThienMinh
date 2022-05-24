@@ -1,8 +1,10 @@
 <?php require_once("viewsAdmin/layout/header.php");?>
+			
+					
 <div class="content">
 	<div class="page-inner">			
 		<div class="page-header">
-			<h4 class="page-title">Nhà cung cấp</h4>
+			<h4 class="page-title">Tìm kiếm</h4>
 			<ul class="breadcrumbs">
 				<li class="nav-home">
 					<a href="#">
@@ -13,13 +15,13 @@
 					<i class="flaticon-right-arrow"></i>
 				</li>
 				<li class="nav-item">
-					<a href="#">Nhà cung cấp</a>
+					<a href="#">Tìm kiếm</a>
 				</li>
 				<li class="separator">
 					<i class="flaticon-right-arrow"></i>
 				</li>
 				<li class="nav-item">
-					<a href="#">Danh sách Nhà cung cấp</a>
+					<a href="#">Danh sách Tìm kiếm</a>
 				</li>
 			</ul>
 		</div>
@@ -27,90 +29,12 @@
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header">
-						<div class="d-flex align-items-center">
-							<h4 class="card-title">Danh sách Nhà cung cấp</h4>
-							<button class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addRowModal">
-								<i class="fa fa-plus"></i>
-								Thêm Nhà cung cấp
-							</button>
+						<div class=" align-items-center">
+							<h4 class="card-title">Danh sách Tìm kiếm - tủ trung tâm</h4>
+							<p>(có 3 kết quả tìm kiếm)</p>
 						</div>
 					</div>
 					<div class="card-body">
-						<div class="modal fade" id="addRowModal" tabindex="-1" role="dialog" aria-hidden="true">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-header no-bd">
-										<h5 class="modal-title">
-											<span class="fw-mediumbold">
-											Thêm mới</span> 
-										</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<div class="modal-body">
-										<form>
-											<div class="row">
-												<div class="col-sm-12">
-													<div class="form-group form-group-default">
-														<label>Tên NCC</label>
-														<input id="nameSupp" name="nameSupp" type="text" class="form-control" >
-													</div>
-												</div>
-												<div class="col-sm-12">
-													<div class="form-group form-group-default">
-														<label for="exampleFormControlFile1">Logo</label>
-														<input  id="addImage" type="file" name="logoSupp" class="form-control-file" >
-													</div>
-													<div>
-														<img src="" alt="" width="100" height="100">
-													</div>
-												</div>
-												<div class="col-sm-12">
-													<div class="form-group form-group-default">
-														<label>Email</label>
-														<input id="emailSupp" name ="emailSupp" type="email" class="form-control" >
-													</div>
-												</div>
-												<div class="col-sm-12">
-													<div class="form-group form-group-default">
-														<label>Số điện thoại</label>
-														<input id="phoneSupp" name ="phoneSupp" type="text" class="form-control" >
-													</div>
-												</div>
-												
-												<div class="col-sm-12">
-													<div class="form-group form-group-default">
-														<label>Người đại diện</label>
-														<input id="representativeSupp" name="representativeSupp" type="text" class="form-control" >
-													</div>
-												</div>
-											
-												<div class="col-sm-12">
-													<div class="form-group form-group-default">
-														<label>Địa chỉ</label>
-														<input id="addressSupp" name="addressSupp" type="text" class="form-control" >
-													</div>
-												</div>
-												<div class="col-sm-12">
-													<div class="form-group form-group-default">
-														<label>Hoạt động</label><br>
-														<input class="form-radio-input" id="addstatus" type="radio" name="statusEmp" value="1" checked="">
-														<span class="form-radio-sign">True</span> &nbsp;
-														<input class="form-radio-input" id="addstatus" type="radio" name="statusEmp" value="0">
-														<span class="form-radio-sign">False</span>
-													</div>
-												</div>
-											</div>
-										</form>
-									</div>
-									<div class="modal-footer no-bd">
-										<button type="button" id="addRowButton" name="addRowButton" class="btn btn-primary">Thêm</button>
-										<button type="button" class="btn btn-danger" data-dismiss ="modal">Hủy</button>
-									</div>
-								</div>
-							</div>
-						</div>
 						<div class="table-responsive">
 							<table id="basic-datatables" class="display table table-striped table-hover" >
 								<thead>

@@ -125,47 +125,45 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="index.php"><i class="fa fa-house"></i></a>
-                                            <li class="dropdown"><a href="introduce.php">GIỚI THIỆU</a>
-                                                <ul>
-                                                    <li><a href="introduct.php">Giới thiệu công ty</a></li>
-                                                    <li><a href="strategyIntro.php">Tầm nhìn sứ mệnh</a></li>
-                                                    <li><a href="strategyIntro.php">Chiến lược phát triển</a></li>
-                                                    <li><a href="companyFace.php">Hình ảnh công ty</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown"><a href="product.php">SẢN PHẨM</a>
-                                                <ul>
-                                                    <li><a href="index.html">Hệ thống báo cháy</a></li>
-                                                    <li><a href="index-2.html">Hệ thống chữa cháy</a></li>
-                                                    <li><a href="index-onepage.html">Hệ thống tăng áp hút khói</a></li>
-                                                    <li><a href="index-onepage.html">Hệ thống đèn Exit sự cố</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown"><a href="project.php">DỰ ÁN</a>
-                                                <ul>
-                                                    <li><a href="about.html">Năm 2019</a></li>
-                                                    <li><a href="team.html">Năm 2020</a></li>
-                                                    <li><a href="gallery.html">Năm 2021</a></li>
-                                                    <li><a href="contact.html">Năm 2022</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown"><a href="news.php">TIN TỨC</a>
-                                                <ul>
-                                                    <li><a href="blog.html">Tuyển dụng</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown"><a href="contact.php">LIÊN HỆ</a></li>
-                                            <li class="dropdown"><a href="search.php"><i class="fa fa-search">
-                                            <form class="search" style="display: none;">
-                                                <div class="input-group">
-                                                    <input class="form-control" type="text" placeholder="Tìm kiếm...">
-                                                    <div class="input-group-append">
-                                                        <button class="input-group-text"><i class="fa fa-search"></i></button>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </i></a>
+                                        <li class="current dropdown"><a href="index.php"><i class="fa fa-house"></i></a></li>
+                                        <li class="dropdown"><a href="view/introduce/introduce.php">GIỚI THIỆU</a>
+                                            <ul>
+                                                <li><a href="view/introduce/introduce.php">Giới thiệu công ty</a></li>
+                                                <li><a href="view/introduce/visionMission.php">Tầm nhìn sứ mệnh</a></li>
+                                                <li><a href="view/introduce/strategyIntro.php">Chiến lược phát triển</a></li>
+                                                <li><a href="view/introduce/companyFace.php">Hình ảnh công ty</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="view/product/product.php">SẢN PHẨM</a>
+                                            <ul>
+                                                <li><a href="index.html">Hệ thống báo cháy</a></li>
+                                                <li><a href="index-2.html">Hệ thống chữa cháy</a></li>
+                                                <li><a href="index-onepage.html">Hệ thống tăng áp hút khói</a></li>
+                                                <li><a href="index-onepage.html">Hệ thống đèn Exit sự cố</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="view/project/project.php">DỰ ÁN</a>
+                                        </li>
+                                        <li class="dropdown"><a href="view/news/news.php">TIN TỨC</a>
+                                            <ul>
+                                                <li><a href="blog.html">Tuyển dụng</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="view/contact/contact.php">LIÊN HỆ</a></li>
+                                        <li class="dropdown"><i class="fa fa-search "></i>
+                                            <ul>
+                                                <li>
+                                                    <form class="search" style="">
+                                                        <div class="input-group">
+                                                            <input class="form-control" type="text" placeholder="Tìm kiếm...">
+                                                            <div class="input-group-append">
+                                                                <button class="input-group-text"><i class="fa fa-search"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>
@@ -349,7 +347,7 @@
                                         <h3><a href="service-details.html">CUNG CẤP PHƯƠNG TIỆN, THIẾT BỊ, VẬT TƯ PCCC</a></h3>
                                         <p>PCCC THIÊN MINH cung cấp các phương tiện, thiết bị, vật tư cho các công trình, công ty không ngừng nghiên cứu giải pháp nâng cao chất lượng sản phẩm : UY TÍN - CHẤT LƯỢNG - TIẾT KIỆM.
                                         </p>
-                                        <div class="link"><a href="./view/service-detail.php">XEM</a></div>
+                                        <div class="link"><a href="view/service/service-detail-1.php">XEM</a></div>
                                     </div>
                                 </div>
                             </div>
