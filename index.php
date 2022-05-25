@@ -25,19 +25,45 @@
     <link href="assets/css/color.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/lightslider.min.css">
 
-    <link type="text/css" rel="stylesheet" href="assets/css/lightslider.css">
-    <link rel="stylesheet" href="assets/css/lightslider.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="assets/js/lightslider.js"></script>
+    <script src="assets/js/jquery.lightSlider.js"></script>
     <script src="assets/js/js.slideshow-galleri.js"></script>
     <script src="assets/js/plus-minus-number.js"></script>
-</head>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("#lightSlider").lightSlider();
-    });
+    <script>
+$(document).ready(function() {
+
+$('#minMax').lightSlider({
+
+  minSlide:1,
+
+  maxSlide:4,
+
+  slideMargin:5,
+
+  slideWidth:200
+
+}); 
+
+});
+
 </script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#lightSlider").lightSlider(
+        minSlide:1,
+
+  maxSlide:4,
+
+  slideMargin:5,
+
+  slideWidth:200
+    );
+     
+  });
+</script>
+</head>
 <!-- page wrapper -->
 
 <body>
@@ -396,7 +422,7 @@
                         <p class="title-product" style="left:0;"><span class="">HỆ THỐNG BÁO CHÁY</span></p>
                         <p class="add-product"><a href="" class="">>> Xem thêm</a></p>
                     </div>
-                    <div id="lightSlider" class="centred">
+                    <div id="minMax" class="centred ">
                         <div class="col-lg-3 col-md-4 col-sm-6">
                             <div class="team-block-one wow fadeInUp animated animated animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
                                 <div class="inner-box">

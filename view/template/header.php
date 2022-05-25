@@ -32,6 +32,7 @@
     <script src="../../assets/js/lightslider.js"></script>
     <script src="../../assets/js/js.slideshow-galleri.js"></script>
     <script src="../../assets/js/plus-minus-number.js"></script>
+    <script src="../../assets/js/cart.js"></script>
 </head>
 <script type="text/javascript">
     $(document).ready(function() {
@@ -150,7 +151,7 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown"><a href="../contact/contact.php">LIÊN HỆ</a></li>
-                                        <li class="dropdown"><i class="fa fa-search "></i>
+                                        <li class="dropdown"><a href=""><i class="fa fa-search "></i></a>
                                             <ul>
                                                 <li>
                                                     <form class="search" style="">

@@ -4,6 +4,8 @@
         item: 4,
         autoWidth: false,
         slideMove: 1,
+        minSlide: 1,
+        maxSlide: 10,
         slideMargin: 10,
         addClass: '',
         mode: 'slide',
